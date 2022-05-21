@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="一个什么东西都有一点的博客">
+<meta name="theme-color" content="#000">
+<title>FinalAPPR的散货舱</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1653155246461">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/pisces.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/Monokai Sublime.css"
+  rel="stylesheet">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1e517b34acb363e6293607928a3c4849";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+  <meta name="description" content="一个什么东西都有一点的博客">
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>FinalAPPR的散货舱</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">一个什么都有一点的博客</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item nav-item-active">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://dun.mianbaoduo.com/@finalappr/" target="_blank">
+                  <i class="fa fa-globe"></i> 赞赏&amp;提问箱
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  pisces">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">FinalAPPR</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>飞友&amp;舰B U-73&amp;伊168厨</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">8</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://finalappr.netlify.app/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+        
+          
+            <a href="https://github.com/SlimeMark">
+              <i class="fa fa-github-alt" title="GitHub"></i>
+            </a>
+          
+            <a href="https://space.bilibili.com/25380754">
+              <i class="fa fa-globe" title="Bilibili"></i>
+            </a>
+          
+        
+        
+      </div>
+    </div>
+  
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'pisces';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box box-shadow-wrapper">
+          <section class="section archives-section bg-color posts-expand">
+            
+
+<div class="bg-color">
+  <div class="archive-timeline-box">
+    <div class="archive-timeline-title">
+      
+        <h2>非常好！目前共计8篇日志，继续努力！</h2>
+      
+    </div>
+    
+      
+      
+        <div class="node-title">
+          <h2 class="tag-year">2022</h2>
+        </div>    
+        
+      
+      <a href="https://finalappr.netlify.app/post/msfs-firstimpression/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              05-21
+              <small>微软模飞2020上手体验感受-欣喜中夹杂着一丝失望</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+        <div class="node-title">
+          <h2 class="tag-year">2021</h2>
+        </div>    
+        
+      
+      <a href="https://finalappr.netlify.app/post/siminit-pt02-1/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              07-05
+              <small>模拟飞行入坑不完全指南 Pt.02-1 在C172上学习起飞</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+      <a href="https://finalappr.netlify.app/post/pt01-2-2-addition/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              06-20
+              <small>Pt.01-2 附录2 补充内容</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+      <a href="https://finalappr.netlify.app/post/simadvset/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              06-06
+              <small>Pt.01-2附录 X-Plane其它配置</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+      <a href="https://finalappr.netlify.app/post/siminit-cfgsim/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              05-30
+              <small>模拟飞行入坑不完全指南-Pt.01-2 模拟器的基础配置</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+      <a href="https://finalappr.netlify.app/post/flightsiminit-pt01-1/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              05-21
+              <small>模拟飞行入坑不完全指南-Pt.01-1 前期准备</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+      <a href="https://finalappr.netlify.app/post/siminitguide-pt00/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              05-19
+              <small>模拟飞行入坑不完全指南-Pt.00 序言</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+      
+      
+      <a href="https://finalappr.netlify.app/post/hello-world/">
+        <div class="motion-warpper tag-archive-node">
+          <div class="tag-node">
+            <h1>
+              05-19
+              <small>Hello World！</small>
+            </h1>
+          </div>  
+      </div>
+      </a>
+    
+  </div>
+  
+<div class="page bg-color">
+  <ul class="pagination-ul">
+    
+    
+      
+        <li class="pagination-li pagination-active">
+            <a href="/archives/page/../">
+              1
+            </a>
+        </li>
+      
+    
+    
+  </ul>
+</div>
+</div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <div class="aplayer" id="aplayer"></div>
+  <script>
+  let musics = JSON.parse('[{"author":"松本文紀","cover":"","lrc":"","musicLink":"https://files.catbox.moe/gq1pbr.mp3","musicName":"Days Of Love"}]');
+  let mediaMusic = [];
+  for (let i = 0; i < musics.length; i++) {
+    let item = musics[i];
+    mediaMusic.push({
+      name: item.musicName,
+      artist: item.author,
+      url: item.musicLink,
+      lrc: item.lrc,
+      cover: item.cover
+    });
+  }
+
+  const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 3,
+      listFolded: false,
+      listMaxHeight: 90,
+      audio: mediaMusic
+  });
+  window.addEventListener('load', function() {
+    let postBody = document.querySelector('#post_body');
+    let hs = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+    postBody && hs.forEach(h => {
+      let helems = postBody.querySelectorAll(h);
+      if (helems.length > 0) {
+        helems.forEach(elem => {
+          elem.id = encodeURI(elem.id);
+        })
+      }
+    })
+  })
+  </script>
+
+
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'false'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/msfs-firstimpression/"" data-c="
+          &lt;p&gt;前几周我终于选择入手发布已久但依旧很新的MSFS2020。相比X-Plane，MSFS确实让我眼前一亮。&lt;/p&gt;
+&lt;h2 id=&#34;1地景&#34;&gt;1.地景&lt;/h2&gt;
+&lt;p&gt;离线模式的地景基本和X-Plane等其它模拟器差不多，毕竟离线地景都是那个原理。我们主要看在线的。&lt;br&gt;
+在线模式下可以体验到市面上其他模拟器在默认状态下绝对无法比拟的地景质量——高清卫星图+AI autogen带来了拥有极致细节的全球地景，这也使得MSFS成为了VFR飞行的最佳模拟器——只有MSFS能几乎完全还原VFR航图中标示的所有参照物。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152724535.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+不过相比之下MSFS也有一些不足，这里我们简要来看看。&lt;/p&gt;
+&lt;h2 id=&#34;2主要缺点&#34;&gt;2.主要缺点&lt;/h2&gt;
+&lt;h3 id=&#34;1部分autogen缺失&#34;&gt;1.部分autogen缺失&lt;/h3&gt;
+&lt;p&gt;这里我们来以GCLA机场为例（嗯我特别喜欢用这个机场来做各种测试）&lt;br&gt;
+对比一下X-Plane中的GCLA和MSFS中的，各位发现了什么吗？&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653151222157.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653151246608.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+（我想我应该不用标哪张图是哪个模拟器，这应该明摆着能看出来）&lt;br&gt;
+GCLA机场临海一侧的风力发电机在MSFS中并未体现出来。不知道是数据的问题还是MSFS中无此建筑物模型，希望之后会有吧。&lt;/p&gt;
+&lt;h3 id=&#34;2标识牌不足&#34;&gt;2.标识牌不足&lt;/h3&gt;
+&lt;p&gt;在X-Plane中（现实中也是），YBBN机场的一条滑行道旁在进入机坪前有一个写有&amp;quot;CONTACT GROUND XXX.XXX&amp;quot;（频率忘了）的标识牌，在MSFS中也未体现。&lt;/p&gt;
+&lt;h3 id=&#34;3部分区域卫星地景autogen过于老旧&#34;&gt;3.部分区域卫星地景&amp;amp;autogen过于老旧&lt;/h3&gt;
+&lt;p&gt;尤其是国内。&lt;/p&gt;
+&lt;h3 id=&#34;4机场过于冷清&#34;&gt;4.机场过于冷清&lt;/h3&gt;
+&lt;p&gt;主要是MSFS中机场地面标线和标识的严重缺失，比如无地面上的滑行道指示、很多机坪也没有一些该有的标线，而且有一些机场环境相关的东西（比如堆放的集装箱之类）也没有X-Plane那么多。同样放上X-Plane和MSFS的对比（图1中的地勤车辆请无视，那不是机场静态物品的一部分）。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653151549449.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653151725036.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653151567114.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5如果你想在这里飞客机&#34;&gt;5.如果你想在这里飞客机……&lt;/h3&gt;
+&lt;p&gt;说实话现阶段不是很建议。现有的优质客机插件实在太少（Fenix A320，FBW A320neo [顺带一提这个免费]，PMDG737，几乎就这些），建议再等等。不过正如前文所说，MSFS算得上是通航天堂了。如果您喜欢VFR那么MSFS确实非常非常优秀。&lt;/p&gt;
+&lt;p&gt;不过说了这么多不足，我们总要看看MSFS到底为什么让人欣喜嘛。&lt;/p&gt;
+&lt;h2 id=&#34;3有什么优点呢&#34;&gt;3.有什么优点呢？&lt;/h2&gt;
+&lt;h3 id=&#34;1菜单界面&#34;&gt;1.菜单界面&lt;/h3&gt;
+&lt;p&gt;相比其它模飞软件确实唯美了不少，还有背景音乐。&lt;br&gt;
+顺带一提，非常建议将BGM设置为legacy，有惊喜&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152051848.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+飞行设置界面比X-Plane的稍微直观一些，毕竟可以直接在地图 （地球）上面选，还是挺炫酷的。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152162479.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+另外还有这个可选的过场动画，增加一些电影感。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152222917.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+同时还有一个比较详细的飞行学院等等的功能，我感觉很适合模飞新手——更不用说MSFS确实吸引了大量新人入坑。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152291559.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152359309.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+还有一些可选的更精细的城市地景，供各位自行选择。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152350567.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+我个人认为这个marketplace应该还是有点用的，比起其它模飞要在好几个平台来回转着买甚至同样产品登陆多家平台时偶尔还得比价确实方便很多。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152433878.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+另外还有profile，如果你不需要航班详细路径等的记录，那么它某种程度上可以代替projectFLY和Volanta。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152910482.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+顺带一提，下图中的log在X-Plane的Output文件夹中其实也有一样的东西，只不过X-Plane没有写出各项的含义（log的内容其实是一个标准格式，X-Plane和MSFS都使用这一标准格式记录，详细内容在X-Plane用户手册中有涉及）。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653153033784.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2环境&#34;&gt;2.环境&lt;/h3&gt;
+&lt;p&gt;这个不用多说，放几张图各位应该就能感受出来MSFS天气模型的强大（实测MSFS的实时气象准确度很高）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152550001.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+同时还有基于实时航班数据的AI飞机（据说数据来源是FlightAware，相比X-Plane中一个免费插件livetraffic的数据来源覆盖要好很多）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152638598.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+↑另外可以在图中看到支持显示同一个服务器中的其他玩家，某种程度上的内置连飞平台&lt;/p&gt;
+&lt;h3 id=&#34;3控制&#34;&gt;3.控制&lt;/h3&gt;
+&lt;p&gt;MSFS和X-Plane一样，常见的摇杆有图方便配置。不过比起X-Plane那种按哪个键定位到哪个项目还是略差一点，得自己一个个找。对于Xbox手柄，在加载界面甚至都有键位图（毕竟自家硬件）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653152837276.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+不过有一点确实有点不太好，那就是对于轴无法自定义曲线；另外有些飞机的油门轴是“完整映射”的，也就是说你拉到最低时并不是慢车，而是最大反推……&lt;br&gt;
+同样还有一个槽点，当从暂停界面按Esc返回时，MSFS会读取并对飞机应用轴数据，这可能导致一些意想不到的结果，轻则推力波动，重则空中关发。&lt;/p&gt;
+&lt;p&gt;不过整体而言，MSFS仍旧是目前模飞画质的天花板。并且仅与X-Plane对比，在更高品质的图像、更密集的建筑物情况下甚至还有比X-Plane更高的帧率，优化确实还可以。而内置的实时航班数据和连飞功能，也着实增添了一定可玩性。&lt;br&gt;
+最后，我还是期待MSFS的插件市场逐渐完善——不过这显然需要一个漫长的过程。即使从2015年发布至今，X-Plane 11仍旧时有“机荒”，缺少某些知名型号的高品质机模（A   3   3   0）。而MSFS发布至今仅不到2年，路还很长。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1653153213960.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+（图中为FBW A320neo，基于默认320neo的模型，但航电和系统不基于默认）&lt;/p&gt;
+&lt;p&gt;这里是五边FinalAPPR，感谢阅读。&lt;/p&gt;
+">微软模飞2020上手体验感受-欣喜中夹杂着一丝失望</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/siminit-pt02-1/"" data-c="
+          &lt;p&gt;&lt;strong&gt;请知悉：从本篇文章开始的教程内容仅针对模拟飞行，适用于将模拟飞行作为爱好的读者。如果您有意向通过模拟飞行学习现实中的飞行技巧，您可以移步至更加专业的教程。&lt;/strong&gt;&lt;br&gt;
+这里推荐您去看看这个：&lt;a href=&#34;https://www.bilibili.com/video/BV1ot411j7Zt&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;0开始之前&#34;&gt;0.开始之前&lt;/h1&gt;
+&lt;p&gt;本次我们使用默认C172飞机，在拉帕尔马机场（ICAO: GCLA）起飞。不过建议您将起始地点设置为任意一个停机位。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625468373676.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+由于您是初学，所以我们先将天气调为“晴好”，并将时间设定到白天。以防您没有摇杆，我们使用鼠标控制飞行。不过默认的鼠标控制实在是太屑了，这里推荐您安装“BetterMouseYoke插件”（但是对于本次来说不用插件也可以）。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625468449267.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+完成加载后，您现在应该已经在这家C172飞机的座舱里了。接下来我们正式开始。&lt;/p&gt;
+&lt;h1 id=&#34;1启动并起飞一架c172&#34;&gt;1.启动并起飞一架C172&lt;/h1&gt;
+&lt;p&gt;由于默认的机模涉及不到绕机检查，我们直接开始启动这架C172。默认机模相对粗糙一点，启动也会简单些。&lt;br&gt;
+为了方便操作我们暂时隐藏操纵杆。点击操纵杆即可隐藏。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625468967323.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625468972991.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;0电源&#34;&gt;0.电源&lt;/h3&gt;
+&lt;p&gt;首先我们为飞机通电。点击这里的右侧红色电门开启电池，左侧电门（那个是发电机）也一并打开。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469050394.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+通电后打开航行灯，它的电门就在右侧不远处。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469149575.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+接下来是这两个灰色电门，点击它们打开航电系统。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469197026.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+您现在应该注意到航电系统已经开机了。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469229392.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1发动机启动&#34;&gt;1.发动机启动&lt;/h4&gt;
+&lt;p&gt;通常来讲首次启动C172时您需要进行发动机注油操作。不过默认机模似乎未做模拟，但您依旧可以执行该操作。首先打开油泵电门，在您刚刚打开航行灯的那一排电门最左边：&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469363641.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+接下来将混合比杆推到头，并同时观察燃油流量表（下面第二张图中写有“FUEL FLOW”的那个）。您可以使用鼠标或按下键盘上的F8建（通常应该可以使用键盘，偶尔可能有bug键盘操作没有反应……）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469566502.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469572779.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+等燃油流量表上升并下降后将混合比拉到最小，并关闭油泵。（不用看着燃油流量指针发呆了，默认机模真的没有模拟……）&lt;br&gt;
+然后关闭两个航电电门（没错，关闭），这是为了防止发动机启动时供电不稳损坏航电（记不太清，应该是这个原因）。&lt;br&gt;
+打开信标灯（BCN）电门，提醒周围的人发动机即将启动。（就在那一排电门中。）&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625469894012.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+将节流阀略微前推，拧钥匙同时慢慢前推混合比至最大。（拧钥匙的动作您可以通过按住Ctrl+1来实现）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625470635664.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+启动成功后打开航电，接下来我们准备开始滑行。&lt;/p&gt;
+&lt;h3 id=&#34;2滑行和起飞&#34;&gt;2.滑行和起飞&lt;/h3&gt;
+&lt;p&gt;如果您直接在跑道上开始可以跳过此步骤。&lt;br&gt;
+滑行前首先您需要调定修正海压值，对于您设置的“晴好”天气预设，该预设中的修正海压是29.92inHg/1013hPa，也就是标准修压，点击一下高度表上的旋钮可以快捷设定。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625470834262.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+同时确认水平仪下的航向表指示是否正确，参照standby compass（就是那个指南针）调节正确。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625470875748.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+然后解除停机刹车，调转方向，滑上滑行道。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471102360.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+沿滑行道线进入跑道。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471169405.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+先别急着起飞，我们先向左转滑到跑道尽头掉头。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471255768.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+完成后对准跑道中心线，刹停飞机，放下襟翼至10°（您可以通过键盘上的“1”“2”键收/放一档襟翼）&lt;br&gt;
+之后松开制动缓慢加动力。您肯定注意到飞机随着您增加动力在自行偏离，这是单螺旋桨飞机的特性。您只需要轻微向相反方向打方向舵将飞机拉回即可。尽量保持在中心线上。&lt;br&gt;
+空速到达60kts左右时缓慢拉起机头，注意不要过猛，以防擦尾。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471497746.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+现在我们控制住飞机姿态，并逐渐爬升到1000ft，即高度表指针较短的那个指向“1”。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471564874.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471635879.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+到达1000ft后收起襟翼，并继续爬升至1500ft（较长指针指向“5”，较短指针在“1”和“2”之间）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625471738072.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+现在您已经成功地在这架C172完成了您的第一次起飞。之后我们会学习降落以及起落航线，熟练练习这些内容极有助于您以后在更大的飞机上进行操作，尤其是降落的操作。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1625472036664.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+我是FinalAPPR，感谢您的阅读。&lt;/p&gt;
+">模拟飞行入坑不完全指南 Pt.02-1 在C172上学习起飞</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/pt01-2-2-addition/"" data-c="
+          &lt;p&gt;&lt;strong&gt;本文中包含一些重要内容，强烈建议您认真看完。&lt;/strong&gt;&lt;br&gt;
+不知道为什么markdown编辑器又双叒叕抽风了，不换行没有加粗效果了，导致部分内容看起来吃力一些，敬请谅解。&lt;br&gt;
+最近没什么时间模飞，所以真正的飞行教程（C172起飞）被迫推迟到7月左右。正好又想到一些补充的内容，就再开一篇Pt.01的附录吧。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;0社区礼仪&#34;&gt;0.社区礼仪&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;不仅仅是模拟飞行社区，您在任何平台都有义务遵守社区规则。&lt;/strong&gt;&lt;br&gt;
+我曾在模飞论坛上不止一次见到过“伸手党”要求别人提供某某插件。如果是个免费插件还罢了，更离谱的是有人要求直接把激活码给他。这样的行为谁看了都不舒服，希望您看到这篇文章之后千万不要成为这样的社区用户。您在论坛等地方的提问可能无法及时得到答复，甚至可能被其他用户忽略。但这样的现象很正常，毕竟每天在线的就那么多人，活跃的就更少了。希望您记住：&lt;br&gt;
+&lt;strong&gt;这些论坛上的每一个人都没有义务及时地向您提供您所需要的帮助，而大家也不一定有能力能提供您所需的帮助。&lt;/strong&gt;&lt;br&gt;
+因为以上这些原因，所以建议您遇到问题先百度/必应/谷歌/……，不要急着去论坛上问，说不定您自己就解决了问题，还省了等待高质量答案的时间。&lt;br&gt;
+顺便说下如何高效发问：&lt;/p&gt;
+&lt;h3 id=&#34;0对于地景和机模等等模拟器里能看到的问题一定要附上截图&#34;&gt;0.对于地景和机模等等模拟器里能看到的问题，一定要附上截图。&lt;/h3&gt;
+&lt;p&gt;光靠文字描述其他人可能真的不知道您究竟遇到了什么问题。&lt;/p&gt;
+&lt;h3 id=&#34;1描述问题越详细越好&#34;&gt;1.描述问题越详细越好。&lt;/h3&gt;
+&lt;p&gt;比如您未调整地景顺序进入模拟器发现地景错乱，如果您写出了您是如何安装地景的，其他人便能很快找到原因是您忘了调整地景顺序。&lt;/p&gt;
+&lt;h3 id=&#34;2对于模拟器闪退报错等等一定要附上log文件&#34;&gt;2.对于模拟器闪退报错等等一定要附上log文件。&lt;/h3&gt;
+&lt;p&gt;您的模拟器应该会记录log（日志）文件，里面包括了模拟器运行时的各种事件。log文件有助于其他人快速找到您所遇到的模拟器问题。&lt;/p&gt;
+&lt;h3 id=&#34;3问题具体一点&#34;&gt;3.问题具体一点。&lt;/h3&gt;
+&lt;p&gt;不要问诸如“怎么开xxx机型”这样的问题。问题越具体越好。&lt;/p&gt;
+&lt;h1 id=&#34;1关于和谐版软件&#34;&gt;1.关于“和谐版”软件&lt;/h1&gt;
+&lt;p&gt;其实“和谐”说白了就是“破解”。关于这个，我的观点是这样的：&lt;br&gt;
+&lt;strong&gt;我不支持破解，也不完全反对——除非某个破解版插件的发布者已经严重侵犯了原作者的著作权。&lt;/strong&gt;&lt;br&gt;
+毕竟很多插件卖得都不便宜，暂时使用和谐版有助于甄别插件的好坏。但是希望各位觉得某款插件确实不错后在自己能力范围内及时入正，这既是对作者的支持，同时正版软件用起来更方便顺畅些。&lt;br&gt;
+对于某宝某鱼上出售的二手插件或便宜正版，其靠谱程度实在难以确认。总之不是特别建议，除非您信得过卖家。另外，之前确实曾出现过国内地景组作品被倒卖的事件。希望各位在这些平台购买插件时，首先确认其是否对原作者的著作权造成了损害。如果发现有冒充插件作者的，绝对不要购买。如果可能的话，请及时反馈给原作者。&lt;/p&gt;
+&lt;h1 id=&#34;2关于航行资料&#34;&gt;2.关于航行资料&lt;/h1&gt;
+&lt;p&gt;“无图不飞”。即便是目视飞行也离不开航图的辅助。但是航图就牵涉到一些问题。主要是国内航图。&lt;br&gt;
+通常您找到的由CAAC发布的全英文的航图，属于AIP，没什么问题。但如果您拿到的是中文航图，它极可能是NAIP航图。&lt;br&gt;
+&lt;strong&gt;对于这种航图，切记一定不要随意传播。因为该种资料本不应被提供给您。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;3关于飞机资料&#34;&gt;3.关于飞机资料&lt;/h1&gt;
+&lt;p&gt;通常指您在各种论坛上看到的诸如“FCOM”“FCTM”这样的东西。当然，检查单算在内。&lt;br&gt;
+这些东西通常来讲问题不大，中文版的基本也是把制造商官方发布的英文版翻译得来。不过毕竟中文版还是少，您若是实在找不到也别生气，先用英文版凑合一下，没准之后就找到中文版了。&lt;br&gt;
+目前我见过的中文资料里波音737的资料多一些（可能因为它是很多人在模飞中的喷气机启蒙机，emmmm也许吧），空客的整体少一点。&lt;br&gt;
+部分插件商会给（版本较旧且仅供模飞使用的）飞机资料，一般正版插件至少会给个检查单。&lt;/p&gt;
+&lt;p&gt;以上基本就是您在这个阶段需要记住的一些问题。希望对您有一些帮助。&lt;br&gt;
+我是FinalAPPR，感谢您的阅读。&lt;/p&gt;
+">Pt.01-2 附录2 补充内容</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/simadvset/"" data-c="
+          &lt;p&gt;本篇文章整理了X-Plane中较为复杂项目的配置方法（导航数据等）。&lt;br&gt;
+请记住，由于本文中提到的配置内容大多涉及对X-Plane关键文件的修改，请&lt;strong&gt;一定先备份这些文件再进行相应修改！&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;0导航数据&#34;&gt;0.导航数据&lt;/h1&gt;
+&lt;p&gt;模拟飞行中的机载GPS（但是我更愿意叫它GNSS）使用安装的导航数据来提供导航（现实中也一样）。这样一来飞机不光能知道自己在哪，更能知道怎么去另一个地方。由于航路点等会定期调整，导航数据也会定期更新。每28天是一个AIRAC Cycle，即每28天一个版本的导航数据。对于现实中，这些数据当然需要第一时间更新，但在模拟飞行中您不需要更新得那么勤，不过总会需要更新的。&lt;br&gt;
+如果您使用诸如Navigraph这样的服务来更新导航数据，那么您可以跳过此部分。因为这些服务一般会自动下载和安装最新的、适合对应机模的导航数据。这里的内容主要针对手动安装。这里主要介绍两种不同的导航数据。&lt;/p&gt;
+&lt;h2 id=&#34;0x-plane导航数据&#34;&gt;0.X-Plane导航数据&lt;/h2&gt;
+&lt;p&gt;很多机模直接使用X-Plane的导航数据。虽然随着版本更新X-Plane的导航数据也会更新，但一般都是非常陈旧的数据，且更新周期太长了。这需要我们自行去安装新版导航数据。&lt;br&gt;
+请注意：虽然X-Plane自己的导航数据在...\X-Plane 11\Resources\default data中，但是&lt;strong&gt;千万不要动这里的东西&lt;/strong&gt;。我之前第一次更新导航数据就把它装到了这里，结果X-Plane差点废了。&lt;br&gt;
+官方为我们准备了一个地方来安装导航数据。后退一点，找到...\X-Plane 11\Custom Data。就是这里。&lt;br&gt;
+然后也不用新建个文件夹啥的，直接把一堆“earth_***.dat”扔进去就行。&lt;br&gt;
+X-Plane默认导航数据更新完成。&lt;/p&gt;
+&lt;h2 id=&#34;1gns430导航数据&#34;&gt;1.GNS430导航数据&lt;/h2&gt;
+&lt;p&gt;很大一部分第三方机模在使用。您先不用急着了解GNS430是个啥，我们重点来看导航数据。&lt;br&gt;
+依旧是在Custom Data中，新建文件夹（若本身没有）“GNS430”，然后将名为“navdata”（一般您下载的GNS430导航数据都是这个名字的文件夹，如果没有连着文件夹下载而是单独的一堆文件，请您新建一个名为navdata的文件夹）的文件夹放进去，完成。&lt;br&gt;
+请再次检查路径，应该类似这样：...\X-Plane 11\Custom Data\GNS430\navdata&lt;br&gt;
+里面是这样&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622993736285.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+在Cycle Info中，您可以检查一下导航数据版本。我现在安装了2102版（我知道它严重过期了），该文件看起来应该是这样：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;AIRAC cycle    : 2102
+Version        : 1
+Valid (from/to): 25/FEB/2021 - 25/MAR/2021
+
+Forum          : http://forum.navigraph.com
+
+Data provided by Navigraph - www.navigraph.com - Source data copyright (c) 2021 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and may not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+
+Parser-Version : DFD v1.0 20.1216 (c) Richard Stefan
+Files parsed on: 18/02/2021
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其它的一些第三方机模有自己的导航数据或特别的安装方法，一般官方会有说明，这里不再赘述。&lt;/p&gt;
+&lt;h1 id=&#34;1机模&#34;&gt;1.机模&lt;/h1&gt;
+&lt;p&gt;机模是模拟飞行必不可少的组成部分。在X-Plane中安装机模还是比较简单的。&lt;br&gt;
+将机模文件夹整个放进...\X-Plane 11\Aircraft中即可（或者您也可以放进Aircraft\Extra Aircraft，反正我是这么放的，效果都一样）&lt;/p&gt;
+&lt;h1 id=&#34;2地景&#34;&gt;2.地景&lt;/h1&gt;
+&lt;p&gt;除了机模最重要的就是地景。地景这里有很多讲究，我们一会再说。先来看看怎么安装地景。&lt;br&gt;
+也是一样，将整个地景文件夹放进...\X-Plane 11\Custom Scenery中即可。&lt;br&gt;
+好了，现在我们来说说这里讲究的地方——地景顺序。&lt;br&gt;
+地景主要有机场地景、地景库、底层Mesh或者地皮（卫星图什么的）、Autogen（基于数据自动生成的建筑物等等）等等&lt;br&gt;
+一般来讲，地皮、Autogen应在最底层，其上是机场，地景库就无所谓了。&lt;br&gt;
+这样的一个顺序会比较合理：&lt;/p&gt;
+&lt;p&gt;机场&lt;br&gt;
+Autogen&lt;br&gt;
+地皮&lt;/p&gt;
+&lt;p&gt;所以建议在所有机场地景文件夹名字的最前，加上字母a；地皮前加上z，至于剩下的就取a~z之间的字母使用，地景库可以不变。&lt;br&gt;
+接下来找到这样一个文件：scenery_packs.ini&lt;br&gt;
+这里面所写的目录顺序就是地景顺序。如果有不对的请自行手动调整一下。&lt;br&gt;
+每次启动时有新地景就会按字母顺序插入进去，加载时从下至上，最上面的会覆盖掉下面的。这也是为什么机场地景要放在最上面，不然可能会出现航站楼消失、跑道长树等等情况。&lt;br&gt;
+如果您实在不想自行填写，那就按上述顺序重命名一遍地景，然后把这个文件中从第一个“SCENERY_PACK Custom Scenery/...”开始的内容删空，打开模拟器。这样所有地景会重新被添加一遍，&lt;/p&gt;
+&lt;p&gt;关于这方面文章很多，因为我自己并没有严格按这个顺序调，只有发现有问题才会修改地景顺序，上述方法有一些并未实际操作过，因此建议您也去找找别的关于X-Plane地景顺序的文章，找到一种您认为最合适的方法使用。&lt;/p&gt;
+&lt;h1 id=&#34;3插件&#34;&gt;3.插件&lt;/h1&gt;
+&lt;p&gt;插件的文件夹比较不好找，位于...\X-Plane 11\Resources\plugins中&lt;br&gt;
+将整个插件的文件夹放进去即可。安装新插件后启动模拟器可能会在加载插件部分卡很久，请耐心等待。&lt;/p&gt;
+&lt;h1 id=&#34;4材质贴图&#34;&gt;4.材质贴图&lt;/h1&gt;
+&lt;p&gt;各种模飞论坛上有很多不同的贴图文件用以替换X-Plane默认贴图来达到更好的视觉效果。请在进行下面的操作之前&lt;strong&gt;一定备份原始文件&lt;/strong&gt;。因为这里我们要实打实的对X-Plane的关键文件进行修改。&lt;br&gt;
+材质贴图全部位于...\X-Plane 11\Resources\bitmaps中&lt;br&gt;
+贴图云和天空颜色位于bitmaps\skycolors中（这个最常改）&lt;br&gt;
+其余材质文件，具体的优化包中应该会有相应指南，或者直接按照X-Plane中的文件夹结构放好了，直接复制粘贴替换即可使用。&lt;br&gt;
+能替换的点很多，在此就不再列举了。&lt;br&gt;
+顺带一提：在更新时被替换的材质文件会被安装器发现已修改，如果您希望继续保留，请记得在更新时选择“保留旧文件”。&lt;br&gt;
+顺便推荐一个不错的贴图包，替换默认的机场道面&lt;a href=&#34;https://forums.x-plane.org/index.php?/files/file/35172-airport-environment-hd/&#34;&gt;点击这里查看&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以上基本就是常用的X-Plane其他配置操作。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我是FinalAPPR，感谢您的阅读。&lt;br&gt;
+如果您觉得这篇文章不错，欢迎&lt;a href=&#34;https://slimemark.github.io/post/supportauthor/&#34;&gt;赞赏&lt;/a&gt;作者。&lt;/p&gt;
+">Pt.01-2附录 X-Plane其它配置</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/siminit-cfgsim/"" data-c="
+          &lt;p&gt;&lt;strong&gt;由于我只用过X-Plane 11，所以就先只讲一下X-Plane 11的使用吧。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;0开始前&#34;&gt;0.开始前&lt;/h1&gt;
+&lt;p&gt;首先，请不要在您的模拟器进行任何加载或卡住时狂点鼠标/键盘/等等，可能本来它不想崩溃，你这么一点它还来劲了，直接未响应，轻则重开，重则重飞乃至十几小时的飞行功亏一篑。&lt;br&gt;
+所以请在它加载时，多一点耐心。&lt;br&gt;
+好了，现在您的X-Plane 11已经加载完成了，来看看我们都能做些什么吧。&lt;/p&gt;
+&lt;h1 id=&#34;1主界面&#34;&gt;1.主界面&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622386991480.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+一切正常的话您会看到这样一个界面。我们从上到下开始介绍。&lt;/p&gt;
+&lt;h2 id=&#34;0恢复上一次的飞行&#34;&gt;0.恢复上一次的飞行&lt;/h2&gt;
+&lt;p&gt;相信我，您很快就会发现模拟器自带的加载功能几乎没什么用。&lt;/p&gt;
+&lt;h2 id=&#34;1新飞行&#34;&gt;1.新飞行&lt;/h2&gt;
+&lt;p&gt;顾名思义。&lt;/p&gt;
+&lt;h2 id=&#34;2加载已保存的飞行&#34;&gt;2.加载已保存的飞行&lt;/h2&gt;
+&lt;p&gt;同0。&lt;/p&gt;
+&lt;h2 id=&#34;3飞行学院&#34;&gt;3.飞行学院&lt;/h2&gt;
+&lt;p&gt;虽然没什么东西，但建议您从这里开始入门一些很基本的东西。&lt;br&gt;
+对了，不建议去学里面的直升机教程——除非您想开直升机。&lt;br&gt;
+一个冷知识：&lt;strong&gt;严格来说，直升机不是飞机。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4设置&#34;&gt;4.设置&lt;/h2&gt;
+&lt;p&gt;这里面要了解的很多，我们等下慢慢说。&lt;/p&gt;
+&lt;h2 id=&#34;5退出x-plane&#34;&gt;5.退出X-Plane&lt;/h2&gt;
+&lt;p&gt;这个不用我说了吧……&lt;br&gt;
+接下来，我们就一个一个慢慢说。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;2开始一个新飞行&#34;&gt;2.开始一个新飞行&lt;/h1&gt;
+&lt;h2 id=&#34;0飞机&#34;&gt;0.飞机&lt;/h2&gt;
+&lt;p&gt;这个过程很简单，再您点击“新飞行”后会看到这样一个界面：&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622387387596.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+如果您预先安装了一些插件机却没看到，是不是奇怪它哪去了？别急，点击这里：&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622387440566.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+Bingo！&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622387459207.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+点击飞机图标上的“自定义”按钮可以调整一些设置：&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622387495209.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;0重量-平衡与燃油&#34;&gt;0.重量、平衡与燃油&lt;/h3&gt;
+&lt;p&gt;这里调飞机的载重和油量，以及重心。（多数插件机都不需要您在这里“加油”，它们有自己的配载系统，这玩意适合场景训练用）&lt;/p&gt;
+&lt;h3 id=&#34;1故障&#34;&gt;1.故障&lt;/h3&gt;
+&lt;p&gt;您可以调整飞机的故障，可以设置为“工作”、“故障”或在一定条件下触发某个故障。&lt;/p&gt;
+&lt;h3 id=&#34;2在引擎运转的状态下开始&#34;&gt;2.在引擎运转的状态下开始&lt;/h3&gt;
+&lt;p&gt;建议冷舱启动（勾掉该选项），如果您有一些特殊需要可以打开。&lt;/p&gt;
+&lt;h2 id=&#34;1位置&#34;&gt;1.位置&lt;/h2&gt;
+&lt;p&gt;接下来转到右上角，这里设置开始的地点。搜索框中可以输入：机场名称（英文）、ICAO四字码（ZBAA、ZBAD、KLAX这样的）、IATA三字码（PEK、PKX、LAX这样的）&lt;br&gt;
+点击自定义按钮，您可以看到这样一个界面：&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622387788263.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+右边的大图选择起始位置（机位）&lt;br&gt;
+如果选择在跑道上开始，还可根据需要选择“在跑道上”“3海里进近”“10海里进近”&lt;/p&gt;
+&lt;h2 id=&#34;2天气和时间&#34;&gt;2.天气和时间&lt;/h2&gt;
+&lt;p&gt;您可以自己设置天气，点击自定义按钮可以详细调整&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622387903930.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+“预设天气”处可以选择自定义、来自文件或匹配现实世界条件（说实话，自带的真实天气十分拉跨，建议后期转第三方天气插件）&lt;br&gt;
+时间更没什么说的了，按照喜好自己调，亦或是匹配现实世界的条件。&lt;/p&gt;
+&lt;p&gt;全部设置完成后点击开始飞行，然后——耐心地等待加载吧。加载时长在1分钟到5分钟乃至更长时间不等，您可以充分利用下这点时间。&lt;/p&gt;
+&lt;p&gt;加载完成之后就是这样的了（我切到了外部视角，您加载完应该是在飞机里边，先别急着点各种电门仪表，先接着看）&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622388240757.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+（左上角那个您先不用管，我们一会再说）&lt;br&gt;
+鼠标移到顶部会显示顶部菜单&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622388275096.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+顶部菜单中的内容都很好理解，而且很多也用不到（&lt;br&gt;
+最常用的两个选项卡是“飞行”和“Plugins”（插件）&lt;br&gt;
+您暂时可能还用不到插件功能。&lt;br&gt;
+右上角有一些快捷按钮，鼠标放上去就会显示他们是干什么的。&lt;br&gt;
+接下来我们退回主菜单，来看设置。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622388421544.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;0通用&#34;&gt;0.通用&lt;/h2&gt;
+&lt;p&gt;这里的设置大多易懂，不过这里说一下飞行模型这个设置。&lt;br&gt;
+正如我们上一章提到的，飞行模拟器非常拟真。它使用实时气动运算，所以这个选项就是调它每帧计算多少次飞行模型。&lt;br&gt;
+我个人习惯调到最大，您可以按需。由于帧率可能会偶尔跳到极低，建议最大。这个好像对性能影响……emmm不大？&lt;/p&gt;
+&lt;h2 id=&#34;1声音&#34;&gt;1.声音&lt;/h2&gt;
+&lt;p&gt;emmm……默认就好&lt;/p&gt;
+&lt;h2 id=&#34;2图像&#34;&gt;2.图像&lt;/h2&gt;
+&lt;p&gt;这里是个大头。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622388589166.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+首先说一下：在11.50版本后X-Plane可以运行在OpenGL或Vulkan/METAL引擎下。我感觉Vulkan对性能友好一点（Windows平台下是Vulkan，METAL好像是Mac OS平台）&lt;br&gt;
+该选项需要重启模拟器（其实这里大多数选项都是）。&lt;/p&gt;
+&lt;h3 id=&#34;0视觉效果&#34;&gt;0.视觉效果&lt;/h3&gt;
+&lt;p&gt;整体效果。建议您先调到高，看看卡不卡。&lt;br&gt;
+您可能注意到了，“高”后面跟了个“（HDR）”。X-Plane中绝大多数灯光效果在HDR一下的画质设置时是没有的，也就是说，如果您的机子开不到“高”……那么请做好准备面对真·漆黑一片的夜晚。&lt;br&gt;
+如果“高”没有压力，那么试试“极高”。“极高”画质下会开启环境光遮蔽（SSAO）。&lt;br&gt;
+同时，反射效果也会随这个设置改变。极低下无反射，低的话反射比较弱，以此类推，高和极高的反射效果是全开的。注意区分“反射细节”，它影响的是反射的细节，而不是反射的强弱。等会我们会说到这个。&lt;/p&gt;
+&lt;h3 id=&#34;1贴图质量&#34;&gt;1.贴图质量&lt;/h3&gt;
+&lt;p&gt;影响材质贴图“糊不糊”。您根据您的显存大小和您的实际需要调节即可。建议调完了看看卡不卡，卡的话调低一档。&lt;/p&gt;
+&lt;h3 id=&#34;2抗锯齿&#34;&gt;2.抗锯齿&lt;/h3&gt;
+&lt;p&gt;这个很好理解了，X-Plane共有4种不同的抗锯齿方式，分别是MSAA、FXAA、SSAA+FXAA和SSAA&lt;br&gt;
+在“极低”到“普通”画质下，只有MSAA可用；“高”和“极高”下有FXAA、SSAA+FXAA和SSAA可用&lt;br&gt;
+仍旧是根据实际情况调节即可。&lt;/p&gt;
+&lt;h3 id=&#34;3各向异性过滤&#34;&gt;3.各向异性过滤&lt;/h3&gt;
+&lt;p&gt;emmmmm……这个比较复杂，我也不太好解释，您可以点击&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E8%BF%87%E6%BB%A4&#34;&gt;这里&lt;/a&gt;（百度百科）或者&lt;a href=&#34;http://en.wikipedia.org/wiki/Anisotropic_filtering&#34;&gt;这里&lt;/a&gt;（维基百科）查看具体信息。总之开大了画质会好，相应的性能需求也会高。&lt;/p&gt;
+&lt;p&gt;以上4个设置主要需要GPU性能，下面几个则需要CPU性能。&lt;/p&gt;
+&lt;h3 id=&#34;4全局建筑数量&#34;&gt;4.全局建筑数量&lt;/h3&gt;
+&lt;p&gt;调整建筑物的多少。建议的设置方式：开到最大，然后观察帧率决定是否下调。&lt;br&gt;
+这里说到FPS了，我们来说说怎么显示。&lt;br&gt;
+先暂时离开“图像”菜单，来到“数据输出”菜单&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622468380941.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+看得头晕了是吗？没关系。这里我们只需要找到“Frame rate”一项（第一项），然后点击“显示在座舱”。这样您就可以在已经进入飞行的界面中看到帧率了，也就是之前那张图左上角显示的。&lt;br&gt;
+您可能注意到了有很多组数据，不过您只需要关注最左边那个值，它是当前帧率。&lt;/p&gt;
+&lt;h3 id=&#34;5反射细节&#34;&gt;5.反射细节&lt;/h3&gt;
+&lt;p&gt;字面意思。调整动态反射的细节度。&lt;/p&gt;
+&lt;h3 id=&#34;6生成静态飞机&#34;&gt;6.生成静态飞机&lt;/h3&gt;
+&lt;p&gt;有些人喜欢这个选项，有些人不喜欢。它会生成一些静态的地景库飞机，来为机场略微增加一点“真实感”。&lt;/p&gt;
+&lt;h3 id=&#34;7全局阴影&#34;&gt;7.全局阴影&lt;/h3&gt;
+&lt;p&gt;关闭时只有你自己的飞机有阴影，打开后所有建筑物、飞机等等都会有阴影。&lt;br&gt;
+增强视觉效果，但是某些情况下拖帧严重。&lt;/p&gt;
+&lt;h3 id=&#34;8垂直同步&#34;&gt;8.垂直同步&lt;/h3&gt;
+&lt;p&gt;打开后防止画面撕裂。个人感觉用途不大，而且由于V-Sync自身原理，开启后帧率小幅下降。&lt;/p&gt;
+&lt;h3 id=&#34;9在3d驾驶舱启动和视角追踪&#34;&gt;9.在3D驾驶舱启动……和……视角追踪&lt;/h3&gt;
+&lt;p&gt;如果您有头瞄并希望启用它，开启此选项。&lt;br&gt;
+它右边那个我也不清楚是什么，一般来讲没用……&lt;/p&gt;
+&lt;p&gt;此外还有一些辅助功能，按需调节即可。如果您有多屏幕，可以按需调整视角偏移使显示更符合实际情况。&lt;/p&gt;
+&lt;h2 id=&#34;3网络&#34;&gt;3.网络&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622468833161.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+这里调整一些基于网络的数据输出。如果您有第三方的模拟飞行EFB/地图等等应用（这样的东西很多），其中的有一些可能使用的是X-Plane通过UDP输出的数据。&lt;br&gt;
+（顺便说下这个多人游戏，我是没用过，一般都用连飞平台提供的客户端或共享驾驶舱插件smartcopilot，还没听说过有人用这个）&lt;br&gt;
+别的设置暂时我们还用不到，后续的文章我们再讲解。&lt;/p&gt;
+&lt;h2 id=&#34;4数据输出&#34;&gt;4.数据输出&lt;/h2&gt;
+&lt;p&gt;目前来看除了帧率一般也不需要什么特别的数据，除非是一些第三方地图应用，需要您打开通过UDP网络输出经纬度和地速、航向等等数据。这个视具体情况而定，在此暂不赘述，放到后续章节再展开讲。&lt;/p&gt;
+&lt;h2 id=&#34;5摇杆&#34;&gt;5.摇杆&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622469072679.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622469065214.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+如果您有摇杆，您可能需要这个页面。&lt;br&gt;
+首先X-Plane在首次连接摇杆时会要求您做一个校准，按照说明来就行。&lt;br&gt;
+之后的调节其实很方便，按下对应按钮/操作对应轴的时候，X-Plane会自动滚动菜单并高亮被激活项&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622469165723.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+根据需要更改对应功能。保存功能可能有点让人头晕，其实您只需要对应飞机保存就行。X-Plane中您创建的摇杆配置可以绑定到一个或多个机模上。&lt;/p&gt;
+&lt;h2 id=&#34;6键盘&#34;&gt;6.键盘&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622469242496.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+这里设置键位，当然您也可以把这里当键位表来用。&lt;/p&gt;
+&lt;h2 id=&#34;7gps设备&#34;&gt;7.GPS设备&lt;/h2&gt;
+&lt;p&gt;相信我，您大概率用不着。&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622469286466.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;8虚拟现实硬件&#34;&gt;8.虚拟现实硬件&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622469330670.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+X-Plane对VR有一些基础支持。不过这个我们暂时不需要用到。&lt;/p&gt;
+&lt;p&gt;以上就是关于设置界面的介绍。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;好了，目前您已经学会了如何开始一个新飞行以及如何配置您的X-Plane飞行模拟器。您也注意到了，本文标题是“模拟器的基础配置”。除此之外还有其它需要配置的内容，比如第三方地景、导航数据等等。这些内容我们会在以后讲解。下一篇文章，您将会真正地开始飞行——从一架Cessna172开始您在这个模拟世界的第一次翱翔。&lt;br&gt;
+我是FinalAPPR，感谢您的阅读。如果您觉得本文对您有帮助，欢迎&lt;a href=&#34;https://slimemark.github.io/post/supportauthor/&#34;&gt;赞赏&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;备注&#34;&gt;备注&lt;/h1&gt;
+&lt;p&gt;本文中涉及到一些画质设置，对于一些专业词汇等我的介绍可能不到位或有错误，还请谅解。&lt;/p&gt;
+">模拟飞行入坑不完全指南-Pt.01-2 模拟器的基础配置</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/supportauthor/"" data-c="
+          &lt;p&gt;如果您觉得文章内容很好且对您有帮助，欢迎赞赏作者&lt;br&gt;
+&lt;img src=&#34;https://finalappr.netlify.app/post-images/1622219158175.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+">赞赏</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/flightsiminit-pt01-1/"" data-c="
+          &lt;p&gt;首先，我想明确一点，我们在此讨论的，是&lt;strong&gt;模拟飞行软件&lt;/strong&gt;，而不是&lt;strong&gt;飞行游戏&lt;/strong&gt;。这两者主要的区别，在于飞行游戏相较于模拟飞行软件，其严谨程度有着明显差别。但是，如果您从未接触过飞行相关知识，那么一款不错的飞行游戏有助于您尽快了解飞行的一些基础要素。这里推荐我最早接触的《极限着陆》。它可以让您迅速熟悉一些以后在更加专业的模拟飞行软件中会接触到的内容——当然，您之后也会发现它是多么的不严谨。因此，&lt;strong&gt;绝对不要将您在飞行游戏中的操纵习惯和飞行习惯带入到模拟飞行中。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;好的，现在我们就开始仅针对模拟飞行软件进行讨论。对于上述内容中完全不了解飞行的情况，您可以先从手机端模拟飞行软件开始入手。这样一来您确实接触到了较为严谨的（相较于PC上运行的模拟飞行软件来讲，手机端的还是略逊一些）模拟飞行，又不会有太多的资金投入，可以随时退坑。当然，我这里并不建议您一遇到困难就想着退坑，困难总会有的，我也是一步步过来的，遇到一些困难就轻易退坑，那么您可能也就无从接触到模拟飞行中更加深入的内容了。&lt;/p&gt;
+&lt;p&gt;对于手机端飞行模拟软件，《AeroFly》的评价不错；另外您也可以选择《X-Plane Mobile》，只是可能需要一些&lt;em&gt;工具&lt;/em&gt;来访问其地景服务器（早前的版本还能离线玩，自从加入了付费式全球地景不连线根本无从freeflight，而且其服务器国内也无法正常访问）&lt;/p&gt;
+&lt;p&gt;这里希望您记住：不要总想着开大飞机。我明白，所有人都喜欢玩大型客机，但是一知半解地从客机开始学习，很容易走许多弯路，到头来发现一堆问题（降落砸地等等）都是基础不牢导致，还是得从小飞机开始练习（我的真实经历，不信的话您可以看看我在B站上的视频，哪个降落不砸，现在还是回到原点练习降落技巧）。&lt;/p&gt;
+&lt;p&gt;好的，说完了一些基本的准备内容，这里假设您已经通过上述方式对飞行有了些基本了解。那么，欢迎来到PC端飞行模拟器。接下来的内容很多，您可以酌情记录下来。&lt;/p&gt;
+&lt;p&gt;很多问题可以在模拟飞行论坛上发帖询问，推荐两个：&lt;br&gt;
+ChinaFlier中国飞行者联盟&lt;br&gt;
+Sinofsx&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;0自身准备&#34;&gt;0.自身准备&lt;/h2&gt;
+&lt;p&gt;由于模拟飞行本身与游戏还是有一定区别的，所以您自身至少需要有这些准备：&lt;/p&gt;
+&lt;h4 id=&#34;1一定的飞行相关知识&#34;&gt;①一定的飞行相关知识。&lt;/h4&gt;
+&lt;p&gt;您如果对飞行完全不了解，就需要先通过一些方式了解诸如基本术语之类的内容。推荐通过上面段落中的方法，另外推荐《空中浩劫》和《飞行员之眼》这两部纪录片来了解。&lt;/p&gt;
+&lt;h4 id=&#34;2一定的英语水平&#34;&gt;②一定的英语水平。&lt;/h4&gt;
+&lt;p&gt;很多航空相关的资料、网页等等一般都是英文的，像FCOM、FCTM这种文档虽然有中文版，而且也不少，但是相对来讲原版更容易找一点。此外，较大的第三方插件平台除Simmarket外目前都还没有中文支持。虽然可以用机翻，但能看懂一点毕竟方便些。此外，购买的插件遇到问题需要找客服，用英文写邮件的能力还是得有的（PS：一般客服邮件回复很慢，最长可达72小时以上，如果您的问题比较棘手请做好拉锯战的准备……）&lt;/p&gt;
+&lt;h4 id=&#34;3资金&#34;&gt;③资金。&lt;/h4&gt;
+&lt;p&gt;无论是模拟器软件本身还是第三方插件，乃至外设，都需要您投入一定资金。虽然说您确实可以获取到*解版，但是总归还是没有正版用着稳定且方便。至于外设，这个看个人喜好，投入不等。从500元左右的摇杆到高达几十万的模拟舱（一般人也不会去买，大概……），都有可能。&lt;/p&gt;
+&lt;h4 id=&#34;4坚持&#34;&gt;④坚持。&lt;/h4&gt;
+&lt;p&gt;模拟飞行是一个需要长期学习的过程，困难是无法避免的。如果您打算长期在模拟飞行这条路上走，那么坚持必不可少。千万不要绕过您遇到的每一个问题，也不要轻易放弃。这里引用一下Youtube上MzeroA频道的一句话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A Good Pilot is Always Leaning.&lt;br&gt;
+一个优秀的飞行员永远在学习。&lt;br&gt;
+这句话同样适用于模拟飞行“飞行员”，乃至应用到您的生活中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1pc端主流模飞软件&#34;&gt;1.PC端主流模飞软件&lt;/h2&gt;
+&lt;p&gt;在PC端，模飞软件主要有历史悠久的Microsoft Flight Simulator，由洛克希德·马丁公司开发的Prepare 3D（简称P3D），综合来看不错的X-Plane和您可能听说过的次世代飞行模拟器Microsoft Flight Simulator 2020。由于我个人只用过X-Plane，别的模拟器不敢瞎评论，建议您可以去各种模飞论坛上问问，我在这里就只说一下X-Plane。&lt;/p&gt;
+&lt;p&gt;X-Plane目前最新大版本是X-Plane 11，我个人觉得它的好处在于界面比P3D容易理解一点，而且自带中文，图形设置也好调，鼠标放到滑条上看着说明调基本都能调到不错的配置。摇杆设置界面对于常见的摇杆都有图片对照，设置起来容易一些。除此之外还有很多特点，在这里不再一一赘述。&lt;/p&gt;
+&lt;h2 id=&#34;2硬件准备&#34;&gt;2.硬件准备&lt;/h2&gt;
+&lt;p&gt;模拟飞行软件为了追求极高的模拟精度，对性能需求很高。所以，高性能的硬件必不可少。因此，请一定想好您是否真的要继续在这条路上走下去，因为如果您的电脑性能不强，硬件上可能会花掉您不少的资金。&lt;/p&gt;
+&lt;p&gt;关于各种不同的飞行模拟器，您可以在各种论坛上询问最佳性价比的配置，在这里不再赘述，因为我也说不清楚什么是最好的，因人而异吧。&lt;/p&gt;
+&lt;p&gt;除此之外，您需要一块足够大的硬盘——越大越好。这是因为模拟飞行中的高精度（也许吧）全球地景（默认地景）会占去超大的空间（对于X-Plane，最终安装大小在60GB上下），而且您后期安装的第三方增强地景（有些能达到1TB）、机模插件等等都会占去极大的空间。所以，哪怕是为模拟飞行专门准备一个盘也不夸张。当然，7200RPM的机械硬盘足够使用了，您要是财大气粗也可以上SSD，缩短点读取时间。&lt;/p&gt;
+&lt;p&gt;对于RAM，也是大一点好。模拟飞行软件占用的VRAM和RAM都不小。就我个人的画质设置和使用的软件，16GB RAM也许是一个比较合适的大小。&lt;/p&gt;
+&lt;h2 id=&#34;3软件准备&#34;&gt;3.软件准备&lt;/h2&gt;
+&lt;p&gt;您需要至少一个上文中提到的模拟飞行软件。（这不是废话吗）&lt;br&gt;
+（软件方面好像没什么特别的，这里&lt;strong&gt;建议使用Windows 10系统&lt;/strong&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;4外设&#34;&gt;4.外设&lt;/h2&gt;
+&lt;p&gt;之所以将外设单独列出来，是因为我认为它对于初次接触模拟飞行的人来说，并不是一定要有的。当然，如果您确定您将长期在模飞这条路上走，那么摇杆是迟早要有的。&lt;br&gt;
+市面上摇杆选择很多，这里我个人感觉性价比不错的是图马斯特的T16000M（不是广告，我确实觉得这个好）。当然您如果对外观有要求，您还可以选他们的TCA摇杆，空客风。&lt;br&gt;
+对于波音上的那种Yoke，我没有用过，不过评价较好的好像是Honeycomb的，您可以在&lt;a href=&#34;https://flyhoneycomb.com/products/alpha-flight-controls&#34;&gt;这里&lt;/a&gt;了解更多。&lt;/p&gt;
+&lt;h2 id=&#34;写在最后&#34;&gt;写在最后&lt;/h2&gt;
+&lt;p&gt;好了，您的第一步准备在这里就已经完成了。下一篇文章，我将以X-Plane为例，带您学会如何较好地配置和使用您的模拟飞行软件。&lt;br&gt;
+希望您能记住那句话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A Good Pilot is Always Leaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里是FinalAPPR五边，感谢阅读。&lt;/p&gt;
+">模拟飞行入坑不完全指南-Pt.01-1 前期准备</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/siminitguide-pt00/"" data-c="
+          &lt;p&gt;一直想写一点模拟飞行相关的东西，但是因为自己能力有限整不了什么太专业的活，于是就想到做一个尽可能详尽的模拟飞行入坑指南，以我自己的经验为主，结合各种能找到的资料，为想入坑模拟飞行的新人尽可能减少障碍和各种弯路。&lt;/p&gt;
+&lt;p&gt;即使您只是对模拟飞行有一丁点兴趣，甚至只是想随便玩玩，您都可以在这个系列指南中找到适合您的路线。当然，正如其标题“不完全指南”，我可能无法保证您一定能避开所有坑，具体路线细节，还待您自行摸索。&lt;/p&gt;
+&lt;p&gt;本系列文章将长期更新。&lt;img src=&#34;https://finalappr.netlify.app/post-images/1621438956123.png&#34; alt=&#34;截图自X-Plane飞行模拟器&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+">模拟飞行入坑不完全指南-Pt.00 序言</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/hello-world/"" data-c="
+          &lt;hr&gt;
+&lt;h2 id=&#34;该文章供测试使用&#34;&gt;（该文章供测试使用）&lt;/h2&gt;
+">Hello World！</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/about/"" data-c="
+          &lt;p&gt;别看了，这里真的什么也没有&lt;/p&gt;
+">关于</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://finalappr.netlify.app/post/hello-gridea/"" data-c="
+          &lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/getgridea/gridea&#34;&gt;Github&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://gridea.dev/&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://fehey.com/&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;特性&#34;&gt;特性👇&lt;/h2&gt;
+&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;
+&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;
+&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;
+&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;
+&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;
+&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;
+&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=&#34;https://github.com/gitalk/gitalk&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=&#34;https://github.com/SukkaW/DisqusJS&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;
+&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;
+&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;
+&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;
+&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;
+&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;
+&lt;p&gt;😘 Enjoy~&lt;/p&gt;
+">Hello Gridea</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;前几周我终于选择入手发布已久但依旧很新的MSFS2020。相比X-Plane，MSFS确实让我眼前一亮。&lt;/p&gt;\n&lt;h2 id=\&#34;1地景\&#34;&gt;1.地景&lt;/h2&gt;\n&lt;p&gt;离线模式的地景基本和X-Plane等其它模拟器差不多，毕竟离线地景都是那个原理。我们主要看在线的。&lt;br&gt;\n在线模式下可以体验到市面上其他模拟器在默认状态下绝对无法比拟的地景质量——高清卫星图+AI autogen带来了拥有极致细节的全球地景，这也使得MSFS成为了VFR飞行的最佳模拟器——只有MSFS能几乎完全还原VFR航图中标示的所有参照物。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152724535.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n不过相比之下MSFS也有一些不足，这里我们简要来看看。&lt;/p&gt;\n&lt;h2 id=\&#34;2主要缺点\&#34;&gt;2.主要缺点&lt;/h2&gt;\n&lt;h3 id=\&#34;1部分autogen缺失\&#34;&gt;1.部分autogen缺失&lt;/h3&gt;\n&lt;p&gt;这里我们来以GCLA机场为例（嗯我特别喜欢用这个机场来做各种测试）&lt;br&gt;\n对比一下X-Plane中的GCLA和MSFS中的，各位发现了什么吗？&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653151222157.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653151246608.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n（我想我应该不用标哪张图是哪个模拟器，这应该明摆着能看出来）&lt;br&gt;\nGCLA机场临海一侧的风力发电机在MSFS中并未体现出来。不知道是数据的问题还是MSFS中无此建筑物模型，希望之后会有吧。&lt;/p&gt;\n&lt;h3 id=\&#34;2标识牌不足\&#34;&gt;2.标识牌不足&lt;/h3&gt;\n&lt;p&gt;在X-Plane中（现实中也是），YBBN机场的一条滑行道旁在进入机坪前有一个写有&amp;quot;CONTACT GROUND XXX.XXX&amp;quot;（频率忘了）的标识牌，在MSFS中也未体现。&lt;/p&gt;\n&lt;h3 id=\&#34;3部分区域卫星地景autogen过于老旧\&#34;&gt;3.部分区域卫星地景&amp;amp;autogen过于老旧&lt;/h3&gt;\n&lt;p&gt;尤其是国内。&lt;/p&gt;\n&lt;h3 id=\&#34;4机场过于冷清\&#34;&gt;4.机场过于冷清&lt;/h3&gt;\n&lt;p&gt;主要是MSFS中机场地面标线和标识的严重缺失，比如无地面上的滑行道指示、很多机坪也没有一些该有的标线，而且有一些机场环境相关的东西（比如堆放的集装箱之类）也没有X-Plane那么多。同样放上X-Plane和MSFS的对比（图1中的地勤车辆请无视，那不是机场静态物品的一部分）。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653151549449.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653151725036.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653151567114.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h3 id=\&#34;5如果你想在这里飞客机\&#34;&gt;5.如果你想在这里飞客机……&lt;/h3&gt;\n&lt;p&gt;说实话现阶段不是很建议。现有的优质客机插件实在太少（Fenix A320，FBW A320neo [顺带一提这个免费]，PMDG737，几乎就这些），建议再等等。不过正如前文所说，MSFS算得上是通航天堂了。如果您喜欢VFR那么MSFS确实非常非常优秀。&lt;/p&gt;\n&lt;p&gt;不过说了这么多不足，我们总要看看MSFS到底为什么让人欣喜嘛。&lt;/p&gt;\n&lt;h2 id=\&#34;3有什么优点呢\&#34;&gt;3.有什么优点呢？&lt;/h2&gt;\n&lt;h3 id=\&#34;1菜单界面\&#34;&gt;1.菜单界面&lt;/h3&gt;\n&lt;p&gt;相比其它模飞软件确实唯美了不少，还有背景音乐。&lt;br&gt;\n顺带一提，非常建议将BGM设置为legacy，有惊喜&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152051848.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n飞行设置界面比X-Plane的稍微直观一些，毕竟可以直接在地图 （地球）上面选，还是挺炫酷的。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152162479.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n另外还有这个可选的过场动画，增加一些电影感。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152222917.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n同时还有一个比较详细的飞行学院等等的功能，我感觉很适合模飞新手——更不用说MSFS确实吸引了大量新人入坑。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152291559.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152359309.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n还有一些可选的更精细的城市地景，供各位自行选择。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152350567.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n我个人认为这个marketplace应该还是有点用的，比起其它模飞要在好几个平台来回转着买甚至同样产品登陆多家平台时偶尔还得比价确实方便很多。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152433878.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n另外还有profile，如果你不需要航班详细路径等的记录，那么它某种程度上可以代替projectFLY和Volanta。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152910482.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n顺带一提，下图中的log在X-Plane的Output文件夹中其实也有一样的东西，只不过X-Plane没有写出各项的含义（log的内容其实是一个标准格式，X-Plane和MSFS都使用这一标准格式记录，详细内容在X-Plane用户手册中有涉及）。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653153033784.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h3 id=\&#34;2环境\&#34;&gt;2.环境&lt;/h3&gt;\n&lt;p&gt;这个不用多说，放几张图各位应该就能感受出来MSFS天气模型的强大（实测MSFS的实时气象准确度很高）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152550001.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n同时还有基于实时航班数据的AI飞机（据说数据来源是FlightAware，相比X-Plane中一个免费插件livetraffic的数据来源覆盖要好很多）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152638598.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n↑另外可以在图中看到支持显示同一个服务器中的其他玩家，某种程度上的内置连飞平台&lt;/p&gt;\n&lt;h3 id=\&#34;3控制\&#34;&gt;3.控制&lt;/h3&gt;\n&lt;p&gt;MSFS和X-Plane一样，常见的摇杆有图方便配置。不过比起X-Plane那种按哪个键定位到哪个项目还是略差一点，得自己一个个找。对于Xbox手柄，在加载界面甚至都有键位图（毕竟自家硬件）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653152837276.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n不过有一点确实有点不太好，那就是对于轴无法自定义曲线；另外有些飞机的油门轴是“完整映射”的，也就是说你拉到最低时并不是慢车，而是最大反推……&lt;br&gt;\n同样还有一个槽点，当从暂停界面按Esc返回时，MSFS会读取并对飞机应用轴数据，这可能导致一些意想不到的结果，轻则推力波动，重则空中关发。&lt;/p&gt;\n&lt;p&gt;不过整体而言，MSFS仍旧是目前模飞画质的天花板。并且仅与X-Plane对比，在更高品质的图像、更密集的建筑物情况下甚至还有比X-Plane更高的帧率，优化确实还可以。而内置的实时航班数据和连飞功能，也着实增添了一定可玩性。&lt;br&gt;\n最后，我还是期待MSFS的插件市场逐渐完善——不过这显然需要一个漫长的过程。即使从2015年发布至今，X-Plane 11仍旧时有“机荒”，缺少某些知名型号的高品质机模（A   3   3   0）。而MSFS发布至今仅不到2年，路还很长。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1653153213960.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n（图中为FBW A320neo，基于默认320neo的模型，但航电和系统不基于默认）&lt;/p&gt;\n&lt;p&gt;这里是五边FinalAPPR，感谢阅读。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;msfs-firstimpression&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;微软模飞2020上手体验感受-欣喜中夹杂着一丝失望&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模拟飞行&#34;,&#34;slug&#34;:&#34;p3eFyM0bU&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/p3eFyM0bU/&#34;}],&#34;date&#34;:&#34;2022-05-21 23:50:58&#34;,&#34;dateFormat&#34;:&#34;2022-05-21&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/msfs-firstimpression.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/msfs-firstimpression/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;6 min read&#34;,&#34;time&#34;:320000,&#34;words&#34;:1514,&#34;minutes&#34;:6},&#34;description&#34;:&#34;前几周我终于选择入手发布已久但依旧很新的MSFS2020。相比X-Plane，MSFS确实让我眼前一亮。\n1.地景\n离线模式的地景基本和X-Plane等其它模拟器差不多，毕竟离线地景都是那个原理。我们主要看在线的。\n在线模式下可以体验到市面...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%9C%B0%E6%99%AF\&#34;&gt;1.地景&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E4%B8%BB%E8%A6%81%E7%BC%BA%E7%82%B9\&#34;&gt;2.主要缺点&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E9%83%A8%E5%88%86autogen%E7%BC%BA%E5%A4%B1\&#34;&gt;1.部分autogen缺失&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E6%A0%87%E8%AF%86%E7%89%8C%E4%B8%8D%E8%B6%B3\&#34;&gt;2.标识牌不足&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E9%83%A8%E5%88%86%E5%8C%BA%E5%9F%9F%E5%8D%AB%E6%98%9F%E5%9C%B0%E6%99%AFautogen%E8%BF%87%E4%BA%8E%E8%80%81%E6%97%A7\&#34;&gt;3.部分区域卫星地景&amp;amp;autogen过于老旧&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E6%9C%BA%E5%9C%BA%E8%BF%87%E4%BA%8E%E5%86%B7%E6%B8%85\&#34;&gt;4.机场过于冷清&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#5%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%83%B3%E5%9C%A8%E8%BF%99%E9%87%8C%E9%A3%9E%E5%AE%A2%E6%9C%BA\&#34;&gt;5.如果你想在这里飞客机……&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E6%9C%89%E4%BB%80%E4%B9%88%E4%BC%98%E7%82%B9%E5%91%A2\&#34;&gt;3.有什么优点呢？&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E8%8F%9C%E5%8D%95%E7%95%8C%E9%9D%A2\&#34;&gt;1.菜单界面&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E7%8E%AF%E5%A2%83\&#34;&gt;2.环境&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E6%8E%A7%E5%88%B6\&#34;&gt;3.控制&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;请知悉：从本篇文章开始的教程内容仅针对模拟飞行，适用于将模拟飞行作为爱好的读者。如果您有意向通过模拟飞行学习现实中的飞行技巧，您可以移步至更加专业的教程。&lt;/strong&gt;&lt;br&gt;\n这里推荐您去看看这个：&lt;a href=\&#34;https://www.bilibili.com/video/BV1ot411j7Zt\&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;\n&lt;h1 id=\&#34;0开始之前\&#34;&gt;0.开始之前&lt;/h1&gt;\n&lt;p&gt;本次我们使用默认C172飞机，在拉帕尔马机场（ICAO: GCLA）起飞。不过建议您将起始地点设置为任意一个停机位。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625468373676.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n由于您是初学，所以我们先将天气调为“晴好”，并将时间设定到白天。以防您没有摇杆，我们使用鼠标控制飞行。不过默认的鼠标控制实在是太屑了，这里推荐您安装“BetterMouseYoke插件”（但是对于本次来说不用插件也可以）。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625468449267.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n完成加载后，您现在应该已经在这家C172飞机的座舱里了。接下来我们正式开始。&lt;/p&gt;\n&lt;h1 id=\&#34;1启动并起飞一架c172\&#34;&gt;1.启动并起飞一架C172&lt;/h1&gt;\n&lt;p&gt;由于默认的机模涉及不到绕机检查，我们直接开始启动这架C172。默认机模相对粗糙一点，启动也会简单些。&lt;br&gt;\n为了方便操作我们暂时隐藏操纵杆。点击操纵杆即可隐藏。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625468967323.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625468972991.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h3 id=\&#34;0电源\&#34;&gt;0.电源&lt;/h3&gt;\n&lt;p&gt;首先我们为飞机通电。点击这里的右侧红色电门开启电池，左侧电门（那个是发电机）也一并打开。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469050394.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n通电后打开航行灯，它的电门就在右侧不远处。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469149575.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n接下来是这两个灰色电门，点击它们打开航电系统。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469197026.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n您现在应该注意到航电系统已经开机了。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469229392.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h4 id=\&#34;1发动机启动\&#34;&gt;1.发动机启动&lt;/h4&gt;\n&lt;p&gt;通常来讲首次启动C172时您需要进行发动机注油操作。不过默认机模似乎未做模拟，但您依旧可以执行该操作。首先打开油泵电门，在您刚刚打开航行灯的那一排电门最左边：&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469363641.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n接下来将混合比杆推到头，并同时观察燃油流量表（下面第二张图中写有“FUEL FLOW”的那个）。您可以使用鼠标或按下键盘上的F8建（通常应该可以使用键盘，偶尔可能有bug键盘操作没有反应……）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469566502.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469572779.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n等燃油流量表上升并下降后将混合比拉到最小，并关闭油泵。（不用看着燃油流量指针发呆了，默认机模真的没有模拟……）&lt;br&gt;\n然后关闭两个航电电门（没错，关闭），这是为了防止发动机启动时供电不稳损坏航电（记不太清，应该是这个原因）。&lt;br&gt;\n打开信标灯（BCN）电门，提醒周围的人发动机即将启动。（就在那一排电门中。）&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625469894012.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n将节流阀略微前推，拧钥匙同时慢慢前推混合比至最大。（拧钥匙的动作您可以通过按住Ctrl+1来实现）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625470635664.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n启动成功后打开航电，接下来我们准备开始滑行。&lt;/p&gt;\n&lt;h3 id=\&#34;2滑行和起飞\&#34;&gt;2.滑行和起飞&lt;/h3&gt;\n&lt;p&gt;如果您直接在跑道上开始可以跳过此步骤。&lt;br&gt;\n滑行前首先您需要调定修正海压值，对于您设置的“晴好”天气预设，该预设中的修正海压是29.92inHg/1013hPa，也就是标准修压，点击一下高度表上的旋钮可以快捷设定。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625470834262.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n同时确认水平仪下的航向表指示是否正确，参照standby compass（就是那个指南针）调节正确。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625470875748.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n然后解除停机刹车，调转方向，滑上滑行道。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471102360.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n沿滑行道线进入跑道。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471169405.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n先别急着起飞，我们先向左转滑到跑道尽头掉头。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471255768.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n完成后对准跑道中心线，刹停飞机，放下襟翼至10°（您可以通过键盘上的“1”“2”键收/放一档襟翼）&lt;br&gt;\n之后松开制动缓慢加动力。您肯定注意到飞机随着您增加动力在自行偏离，这是单螺旋桨飞机的特性。您只需要轻微向相反方向打方向舵将飞机拉回即可。尽量保持在中心线上。&lt;br&gt;\n空速到达60kts左右时缓慢拉起机头，注意不要过猛，以防擦尾。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471497746.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n现在我们控制住飞机姿态，并逐渐爬升到1000ft，即高度表指针较短的那个指向“1”。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471564874.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471635879.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n到达1000ft后收起襟翼，并继续爬升至1500ft（较长指针指向“5”，较短指针在“1”和“2”之间）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625471738072.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n现在您已经成功地在这架C172完成了您的第一次起飞。之后我们会学习降落以及起落航线，熟练练习这些内容极有助于您以后在更大的飞机上进行操作，尤其是降落的操作。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1625472036664.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n我是FinalAPPR，感谢您的阅读。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;siminit-pt02-1&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;模拟飞行入坑不完全指南 Pt.02-1 在C172上学习起飞&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模飞不完全指南&#34;,&#34;slug&#34;:&#34;Rae5uyoLA&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/Rae5uyoLA/&#34;}],&#34;date&#34;:&#34;2021-07-05 14:51:05&#34;,&#34;dateFormat&#34;:&#34;2021-07-05&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/siminit-pt02-1.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/siminit-pt02-1/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;5 min read&#34;,&#34;time&#34;:247000,&#34;words&#34;:1202,&#34;minutes&#34;:5},&#34;description&#34;:&#34;请知悉：从本篇文章开始的教程内容仅针对模拟飞行，适用于将模拟飞行作为爱好的读者。如果您有意向通过模拟飞行学习现实中的飞行技巧，您可以移步至更加专业的教程。\n这里推荐您去看看这个：Link\n0.开始之前\n本次我们使用默认C172飞机，在拉帕尔...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D\&#34;&gt;0.开始之前&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%90%AF%E5%8A%A8%E5%B9%B6%E8%B5%B7%E9%A3%9E%E4%B8%80%E6%9E%B6c172\&#34;&gt;1.启动并起飞一架C172&lt;/a&gt;&lt;br&gt;\n*\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E7%94%B5%E6%BA%90\&#34;&gt;0.电源&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%8F%91%E5%8A%A8%E6%9C%BA%E5%90%AF%E5%8A%A8\&#34;&gt;1.发动机启动&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E6%BB%91%E8%A1%8C%E5%92%8C%E8%B5%B7%E9%A3%9E\&#34;&gt;2.滑行和起飞&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;本文中包含一些重要内容，强烈建议您认真看完。&lt;/strong&gt;&lt;br&gt;\n不知道为什么markdown编辑器又双叒叕抽风了，不换行没有加粗效果了，导致部分内容看起来吃力一些，敬请谅解。&lt;br&gt;\n最近没什么时间模飞，所以真正的飞行教程（C172起飞）被迫推迟到7月左右。正好又想到一些补充的内容，就再开一篇Pt.01的附录吧。&lt;/p&gt;\n&lt;hr&gt;\n&lt;h1 id=\&#34;0社区礼仪\&#34;&gt;0.社区礼仪&lt;/h1&gt;\n&lt;p&gt;&lt;strong&gt;不仅仅是模拟飞行社区，您在任何平台都有义务遵守社区规则。&lt;/strong&gt;&lt;br&gt;\n我曾在模飞论坛上不止一次见到过“伸手党”要求别人提供某某插件。如果是个免费插件还罢了，更离谱的是有人要求直接把激活码给他。这样的行为谁看了都不舒服，希望您看到这篇文章之后千万不要成为这样的社区用户。您在论坛等地方的提问可能无法及时得到答复，甚至可能被其他用户忽略。但这样的现象很正常，毕竟每天在线的就那么多人，活跃的就更少了。希望您记住：&lt;br&gt;\n&lt;strong&gt;这些论坛上的每一个人都没有义务及时地向您提供您所需要的帮助，而大家也不一定有能力能提供您所需的帮助。&lt;/strong&gt;&lt;br&gt;\n因为以上这些原因，所以建议您遇到问题先百度/必应/谷歌/……，不要急着去论坛上问，说不定您自己就解决了问题，还省了等待高质量答案的时间。&lt;br&gt;\n顺便说下如何高效发问：&lt;/p&gt;\n&lt;h3 id=\&#34;0对于地景和机模等等模拟器里能看到的问题一定要附上截图\&#34;&gt;0.对于地景和机模等等模拟器里能看到的问题，一定要附上截图。&lt;/h3&gt;\n&lt;p&gt;光靠文字描述其他人可能真的不知道您究竟遇到了什么问题。&lt;/p&gt;\n&lt;h3 id=\&#34;1描述问题越详细越好\&#34;&gt;1.描述问题越详细越好。&lt;/h3&gt;\n&lt;p&gt;比如您未调整地景顺序进入模拟器发现地景错乱，如果您写出了您是如何安装地景的，其他人便能很快找到原因是您忘了调整地景顺序。&lt;/p&gt;\n&lt;h3 id=\&#34;2对于模拟器闪退报错等等一定要附上log文件\&#34;&gt;2.对于模拟器闪退报错等等一定要附上log文件。&lt;/h3&gt;\n&lt;p&gt;您的模拟器应该会记录log（日志）文件，里面包括了模拟器运行时的各种事件。log文件有助于其他人快速找到您所遇到的模拟器问题。&lt;/p&gt;\n&lt;h3 id=\&#34;3问题具体一点\&#34;&gt;3.问题具体一点。&lt;/h3&gt;\n&lt;p&gt;不要问诸如“怎么开xxx机型”这样的问题。问题越具体越好。&lt;/p&gt;\n&lt;h1 id=\&#34;1关于和谐版软件\&#34;&gt;1.关于“和谐版”软件&lt;/h1&gt;\n&lt;p&gt;其实“和谐”说白了就是“破解”。关于这个，我的观点是这样的：&lt;br&gt;\n&lt;strong&gt;我不支持破解，也不完全反对——除非某个破解版插件的发布者已经严重侵犯了原作者的著作权。&lt;/strong&gt;&lt;br&gt;\n毕竟很多插件卖得都不便宜，暂时使用和谐版有助于甄别插件的好坏。但是希望各位觉得某款插件确实不错后在自己能力范围内及时入正，这既是对作者的支持，同时正版软件用起来更方便顺畅些。&lt;br&gt;\n对于某宝某鱼上出售的二手插件或便宜正版，其靠谱程度实在难以确认。总之不是特别建议，除非您信得过卖家。另外，之前确实曾出现过国内地景组作品被倒卖的事件。希望各位在这些平台购买插件时，首先确认其是否对原作者的著作权造成了损害。如果发现有冒充插件作者的，绝对不要购买。如果可能的话，请及时反馈给原作者。&lt;/p&gt;\n&lt;h1 id=\&#34;2关于航行资料\&#34;&gt;2.关于航行资料&lt;/h1&gt;\n&lt;p&gt;“无图不飞”。即便是目视飞行也离不开航图的辅助。但是航图就牵涉到一些问题。主要是国内航图。&lt;br&gt;\n通常您找到的由CAAC发布的全英文的航图，属于AIP，没什么问题。但如果您拿到的是中文航图，它极可能是NAIP航图。&lt;br&gt;\n&lt;strong&gt;对于这种航图，切记一定不要随意传播。因为该种资料本不应被提供给您。&lt;/strong&gt;&lt;/p&gt;\n&lt;h1 id=\&#34;3关于飞机资料\&#34;&gt;3.关于飞机资料&lt;/h1&gt;\n&lt;p&gt;通常指您在各种论坛上看到的诸如“FCOM”“FCTM”这样的东西。当然，检查单算在内。&lt;br&gt;\n这些东西通常来讲问题不大，中文版的基本也是把制造商官方发布的英文版翻译得来。不过毕竟中文版还是少，您若是实在找不到也别生气，先用英文版凑合一下，没准之后就找到中文版了。&lt;br&gt;\n目前我见过的中文资料里波音737的资料多一些（可能因为它是很多人在模飞中的喷气机启蒙机，emmmm也许吧），空客的整体少一点。&lt;br&gt;\n部分插件商会给（版本较旧且仅供模飞使用的）飞机资料，一般正版插件至少会给个检查单。&lt;/p&gt;\n&lt;p&gt;以上基本就是您在这个阶段需要记住的一些问题。希望对您有一些帮助。&lt;br&gt;\n我是FinalAPPR，感谢您的阅读。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;pt01-2-2-addition&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;Pt.01-2 附录2 补充内容&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模飞不完全指南&#34;,&#34;slug&#34;:&#34;Rae5uyoLA&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/Rae5uyoLA/&#34;}],&#34;date&#34;:&#34;2021-06-20 22:57:54&#34;,&#34;dateFormat&#34;:&#34;2021-06-20&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/pt01-2-2-addition.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/pt01-2-2-addition/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;5 min read&#34;,&#34;time&#34;:263000,&#34;words&#34;:1296,&#34;minutes&#34;:5},&#34;description&#34;:&#34;本文中包含一些重要内容，强烈建议您认真看完。\n不知道为什么markdown编辑器又双叒叕抽风了，不换行没有加粗效果了，导致部分内容看起来吃力一些，敬请谅解。\n最近没什么时间模飞，所以真正的飞行教程（C172起飞）被迫推迟到7月左右。正好又想...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E7%A4%BE%E5%8C%BA%E7%A4%BC%E4%BB%AA\&#34;&gt;0.社区礼仪&lt;/a&gt;&lt;br&gt;\n*\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E5%AF%B9%E4%BA%8E%E5%9C%B0%E6%99%AF%E5%92%8C%E6%9C%BA%E6%A8%A1%E7%AD%89%E7%AD%89%E6%A8%A1%E6%8B%9F%E5%99%A8%E9%87%8C%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E4%B8%80%E5%AE%9A%E8%A6%81%E9%99%84%E4%B8%8A%E6%88%AA%E5%9B%BE\&#34;&gt;0.对于地景和机模等等模拟器里能看到的问题，一定要附上截图。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E6%8F%8F%E8%BF%B0%E9%97%AE%E9%A2%98%E8%B6%8A%E8%AF%A6%E7%BB%86%E8%B6%8A%E5%A5%BD\&#34;&gt;1.描述问题越详细越好。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%AF%B9%E4%BA%8E%E6%A8%A1%E6%8B%9F%E5%99%A8%E9%97%AA%E9%80%80%E6%8A%A5%E9%94%99%E7%AD%89%E7%AD%89%E4%B8%80%E5%AE%9A%E8%A6%81%E9%99%84%E4%B8%8Alog%E6%96%87%E4%BB%B6\&#34;&gt;2.对于模拟器闪退报错等等一定要附上log文件。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E9%97%AE%E9%A2%98%E5%85%B7%E4%BD%93%E4%B8%80%E7%82%B9\&#34;&gt;3.问题具体一点。&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%85%B3%E4%BA%8E%E5%92%8C%E8%B0%90%E7%89%88%E8%BD%AF%E4%BB%B6\&#34;&gt;1.关于“和谐版”软件&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%85%B3%E4%BA%8E%E8%88%AA%E8%A1%8C%E8%B5%84%E6%96%99\&#34;&gt;2.关于航行资料&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E5%85%B3%E4%BA%8E%E9%A3%9E%E6%9C%BA%E8%B5%84%E6%96%99\&#34;&gt;3.关于飞机资料&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;本篇文章整理了X-Plane中较为复杂项目的配置方法（导航数据等）。&lt;br&gt;\n请记住，由于本文中提到的配置内容大多涉及对X-Plane关键文件的修改，请&lt;strong&gt;一定先备份这些文件再进行相应修改！&lt;/strong&gt;&lt;/p&gt;\n&lt;hr&gt;\n&lt;h1 id=\&#34;0导航数据\&#34;&gt;0.导航数据&lt;/h1&gt;\n&lt;p&gt;模拟飞行中的机载GPS（但是我更愿意叫它GNSS）使用安装的导航数据来提供导航（现实中也一样）。这样一来飞机不光能知道自己在哪，更能知道怎么去另一个地方。由于航路点等会定期调整，导航数据也会定期更新。每28天是一个AIRAC Cycle，即每28天一个版本的导航数据。对于现实中，这些数据当然需要第一时间更新，但在模拟飞行中您不需要更新得那么勤，不过总会需要更新的。&lt;br&gt;\n如果您使用诸如Navigraph这样的服务来更新导航数据，那么您可以跳过此部分。因为这些服务一般会自动下载和安装最新的、适合对应机模的导航数据。这里的内容主要针对手动安装。这里主要介绍两种不同的导航数据。&lt;/p&gt;\n&lt;h2 id=\&#34;0x-plane导航数据\&#34;&gt;0.X-Plane导航数据&lt;/h2&gt;\n&lt;p&gt;很多机模直接使用X-Plane的导航数据。虽然随着版本更新X-Plane的导航数据也会更新，但一般都是非常陈旧的数据，且更新周期太长了。这需要我们自行去安装新版导航数据。&lt;br&gt;\n请注意：虽然X-Plane自己的导航数据在...\\X-Plane 11\\Resources\\default data中，但是&lt;strong&gt;千万不要动这里的东西&lt;/strong&gt;。我之前第一次更新导航数据就把它装到了这里，结果X-Plane差点废了。&lt;br&gt;\n官方为我们准备了一个地方来安装导航数据。后退一点，找到...\\X-Plane 11\\Custom Data。就是这里。&lt;br&gt;\n然后也不用新建个文件夹啥的，直接把一堆“earth_***.dat”扔进去就行。&lt;br&gt;\nX-Plane默认导航数据更新完成。&lt;/p&gt;\n&lt;h2 id=\&#34;1gns430导航数据\&#34;&gt;1.GNS430导航数据&lt;/h2&gt;\n&lt;p&gt;很大一部分第三方机模在使用。您先不用急着了解GNS430是个啥，我们重点来看导航数据。&lt;br&gt;\n依旧是在Custom Data中，新建文件夹（若本身没有）“GNS430”，然后将名为“navdata”（一般您下载的GNS430导航数据都是这个名字的文件夹，如果没有连着文件夹下载而是单独的一堆文件，请您新建一个名为navdata的文件夹）的文件夹放进去，完成。&lt;br&gt;\n请再次检查路径，应该类似这样：...\\X-Plane 11\\Custom Data\\GNS430\\navdata&lt;br&gt;\n里面是这样&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622993736285.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n在Cycle Info中，您可以检查一下导航数据版本。我现在安装了2102版（我知道它严重过期了），该文件看起来应该是这样：&lt;/p&gt;\n&lt;pre&gt;&lt;code&gt;AIRAC cycle    : 2102\nVersion        : 1\nValid (from/to): 25/FEB/2021 - 25/MAR/2021\n\nForum          : http://forum.navigraph.com\n\nData provided by Navigraph - www.navigraph.com - Source data copyright (c) 2021 Jeppesen\nThis data may be used for ground based recreational computer game\nsimulation software only, and may not be recompiled, interpreted,\nor distributed for any purpose without the written consent of Navigraph.\nThe contents of this database is dated and must not be used for real\nworld navigation as it is unlawful and unsafe to do so.\n\nParser-Version : DFD v1.0 20.1216 (c) Richard Stefan\nFiles parsed on: 18/02/2021\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;其它的一些第三方机模有自己的导航数据或特别的安装方法，一般官方会有说明，这里不再赘述。&lt;/p&gt;\n&lt;h1 id=\&#34;1机模\&#34;&gt;1.机模&lt;/h1&gt;\n&lt;p&gt;机模是模拟飞行必不可少的组成部分。在X-Plane中安装机模还是比较简单的。&lt;br&gt;\n将机模文件夹整个放进...\\X-Plane 11\\Aircraft中即可（或者您也可以放进Aircraft\\Extra Aircraft，反正我是这么放的，效果都一样）&lt;/p&gt;\n&lt;h1 id=\&#34;2地景\&#34;&gt;2.地景&lt;/h1&gt;\n&lt;p&gt;除了机模最重要的就是地景。地景这里有很多讲究，我们一会再说。先来看看怎么安装地景。&lt;br&gt;\n也是一样，将整个地景文件夹放进...\\X-Plane 11\\Custom Scenery中即可。&lt;br&gt;\n好了，现在我们来说说这里讲究的地方——地景顺序。&lt;br&gt;\n地景主要有机场地景、地景库、底层Mesh或者地皮（卫星图什么的）、Autogen（基于数据自动生成的建筑物等等）等等&lt;br&gt;\n一般来讲，地皮、Autogen应在最底层，其上是机场，地景库就无所谓了。&lt;br&gt;\n这样的一个顺序会比较合理：&lt;/p&gt;\n&lt;p&gt;机场&lt;br&gt;\nAutogen&lt;br&gt;\n地皮&lt;/p&gt;\n&lt;p&gt;所以建议在所有机场地景文件夹名字的最前，加上字母a；地皮前加上z，至于剩下的就取a~z之间的字母使用，地景库可以不变。&lt;br&gt;\n接下来找到这样一个文件：scenery_packs.ini&lt;br&gt;\n这里面所写的目录顺序就是地景顺序。如果有不对的请自行手动调整一下。&lt;br&gt;\n每次启动时有新地景就会按字母顺序插入进去，加载时从下至上，最上面的会覆盖掉下面的。这也是为什么机场地景要放在最上面，不然可能会出现航站楼消失、跑道长树等等情况。&lt;br&gt;\n如果您实在不想自行填写，那就按上述顺序重命名一遍地景，然后把这个文件中从第一个“SCENERY_PACK Custom Scenery/...”开始的内容删空，打开模拟器。这样所有地景会重新被添加一遍，&lt;/p&gt;\n&lt;p&gt;关于这方面文章很多，因为我自己并没有严格按这个顺序调，只有发现有问题才会修改地景顺序，上述方法有一些并未实际操作过，因此建议您也去找找别的关于X-Plane地景顺序的文章，找到一种您认为最合适的方法使用。&lt;/p&gt;\n&lt;h1 id=\&#34;3插件\&#34;&gt;3.插件&lt;/h1&gt;\n&lt;p&gt;插件的文件夹比较不好找，位于...\\X-Plane 11\\Resources\\plugins中&lt;br&gt;\n将整个插件的文件夹放进去即可。安装新插件后启动模拟器可能会在加载插件部分卡很久，请耐心等待。&lt;/p&gt;\n&lt;h1 id=\&#34;4材质贴图\&#34;&gt;4.材质贴图&lt;/h1&gt;\n&lt;p&gt;各种模飞论坛上有很多不同的贴图文件用以替换X-Plane默认贴图来达到更好的视觉效果。请在进行下面的操作之前&lt;strong&gt;一定备份原始文件&lt;/strong&gt;。因为这里我们要实打实的对X-Plane的关键文件进行修改。&lt;br&gt;\n材质贴图全部位于...\\X-Plane 11\\Resources\\bitmaps中&lt;br&gt;\n贴图云和天空颜色位于bitmaps\\skycolors中（这个最常改）&lt;br&gt;\n其余材质文件，具体的优化包中应该会有相应指南，或者直接按照X-Plane中的文件夹结构放好了，直接复制粘贴替换即可使用。&lt;br&gt;\n能替换的点很多，在此就不再列举了。&lt;br&gt;\n顺带一提：在更新时被替换的材质文件会被安装器发现已修改，如果您希望继续保留，请记得在更新时选择“保留旧文件”。&lt;br&gt;\n顺便推荐一个不错的贴图包，替换默认的机场道面&lt;a href=\&#34;https://forums.x-plane.org/index.php?/files/file/35172-airport-environment-hd/\&#34;&gt;点击这里查看&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;以上基本就是常用的X-Plane其他配置操作。&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;我是FinalAPPR，感谢您的阅读。&lt;br&gt;\n如果您觉得这篇文章不错，欢迎&lt;a href=\&#34;https://slimemark.github.io/post/supportauthor/\&#34;&gt;赞赏&lt;/a&gt;作者。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;simadvset&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;Pt.01-2附录 X-Plane其它配置&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模飞不完全指南&#34;,&#34;slug&#34;:&#34;Rae5uyoLA&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/Rae5uyoLA/&#34;}],&#34;date&#34;:&#34;2021-06-06 23:16:59&#34;,&#34;dateFormat&#34;:&#34;2021-06-06&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/simadvset.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/simadvset/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;7 min read&#34;,&#34;time&#34;:398000,&#34;words&#34;:1803,&#34;minutes&#34;:7},&#34;description&#34;:&#34;本篇文章整理了X-Plane中较为复杂项目的配置方法（导航数据等）。\n请记住，由于本文中提到的配置内容大多涉及对X-Plane关键文件的修改，请一定先备份这些文件再进行相应修改！\n\n0.导航数据\n模拟飞行中的机载GPS（但是我更愿意叫它GN...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E5%AF%BC%E8%88%AA%E6%95%B0%E6%8D%AE\&#34;&gt;0.导航数据&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0x-plane%E5%AF%BC%E8%88%AA%E6%95%B0%E6%8D%AE\&#34;&gt;0.X-Plane导航数据&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1gns430%E5%AF%BC%E8%88%AA%E6%95%B0%E6%8D%AE\&#34;&gt;1.GNS430导航数据&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E6%9C%BA%E6%A8%A1\&#34;&gt;1.机模&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%9C%B0%E6%99%AF\&#34;&gt;2.地景&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E6%8F%92%E4%BB%B6\&#34;&gt;3.插件&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E6%9D%90%E8%B4%A8%E8%B4%B4%E5%9B%BE\&#34;&gt;4.材质贴图&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;由于我只用过X-Plane 11，所以就先只讲一下X-Plane 11的使用吧。&lt;/strong&gt;&lt;/p&gt;\n&lt;h1 id=\&#34;0开始前\&#34;&gt;0.开始前&lt;/h1&gt;\n&lt;p&gt;首先，请不要在您的模拟器进行任何加载或卡住时狂点鼠标/键盘/等等，可能本来它不想崩溃，你这么一点它还来劲了，直接未响应，轻则重开，重则重飞乃至十几小时的飞行功亏一篑。&lt;br&gt;\n所以请在它加载时，多一点耐心。&lt;br&gt;\n好了，现在您的X-Plane 11已经加载完成了，来看看我们都能做些什么吧。&lt;/p&gt;\n&lt;h1 id=\&#34;1主界面\&#34;&gt;1.主界面&lt;/h1&gt;\n&lt;p&gt;&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622386991480.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n一切正常的话您会看到这样一个界面。我们从上到下开始介绍。&lt;/p&gt;\n&lt;h2 id=\&#34;0恢复上一次的飞行\&#34;&gt;0.恢复上一次的飞行&lt;/h2&gt;\n&lt;p&gt;相信我，您很快就会发现模拟器自带的加载功能几乎没什么用。&lt;/p&gt;\n&lt;h2 id=\&#34;1新飞行\&#34;&gt;1.新飞行&lt;/h2&gt;\n&lt;p&gt;顾名思义。&lt;/p&gt;\n&lt;h2 id=\&#34;2加载已保存的飞行\&#34;&gt;2.加载已保存的飞行&lt;/h2&gt;\n&lt;p&gt;同0。&lt;/p&gt;\n&lt;h2 id=\&#34;3飞行学院\&#34;&gt;3.飞行学院&lt;/h2&gt;\n&lt;p&gt;虽然没什么东西，但建议您从这里开始入门一些很基本的东西。&lt;br&gt;\n对了，不建议去学里面的直升机教程——除非您想开直升机。&lt;br&gt;\n一个冷知识：&lt;strong&gt;严格来说，直升机不是飞机。&lt;/strong&gt;&lt;/p&gt;\n&lt;h2 id=\&#34;4设置\&#34;&gt;4.设置&lt;/h2&gt;\n&lt;p&gt;这里面要了解的很多，我们等下慢慢说。&lt;/p&gt;\n&lt;h2 id=\&#34;5退出x-plane\&#34;&gt;5.退出X-Plane&lt;/h2&gt;\n&lt;p&gt;这个不用我说了吧……&lt;br&gt;\n接下来，我们就一个一个慢慢说。&lt;/p&gt;\n&lt;hr&gt;\n&lt;h1 id=\&#34;2开始一个新飞行\&#34;&gt;2.开始一个新飞行&lt;/h1&gt;\n&lt;h2 id=\&#34;0飞机\&#34;&gt;0.飞机&lt;/h2&gt;\n&lt;p&gt;这个过程很简单，再您点击“新飞行”后会看到这样一个界面：&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622387387596.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n如果您预先安装了一些插件机却没看到，是不是奇怪它哪去了？别急，点击这里：&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622387440566.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\nBingo！&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622387459207.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n点击飞机图标上的“自定义”按钮可以调整一些设置：&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622387495209.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h3 id=\&#34;0重量-平衡与燃油\&#34;&gt;0.重量、平衡与燃油&lt;/h3&gt;\n&lt;p&gt;这里调飞机的载重和油量，以及重心。（多数插件机都不需要您在这里“加油”，它们有自己的配载系统，这玩意适合场景训练用）&lt;/p&gt;\n&lt;h3 id=\&#34;1故障\&#34;&gt;1.故障&lt;/h3&gt;\n&lt;p&gt;您可以调整飞机的故障，可以设置为“工作”、“故障”或在一定条件下触发某个故障。&lt;/p&gt;\n&lt;h3 id=\&#34;2在引擎运转的状态下开始\&#34;&gt;2.在引擎运转的状态下开始&lt;/h3&gt;\n&lt;p&gt;建议冷舱启动（勾掉该选项），如果您有一些特殊需要可以打开。&lt;/p&gt;\n&lt;h2 id=\&#34;1位置\&#34;&gt;1.位置&lt;/h2&gt;\n&lt;p&gt;接下来转到右上角，这里设置开始的地点。搜索框中可以输入：机场名称（英文）、ICAO四字码（ZBAA、ZBAD、KLAX这样的）、IATA三字码（PEK、PKX、LAX这样的）&lt;br&gt;\n点击自定义按钮，您可以看到这样一个界面：&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622387788263.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n右边的大图选择起始位置（机位）&lt;br&gt;\n如果选择在跑道上开始，还可根据需要选择“在跑道上”“3海里进近”“10海里进近”&lt;/p&gt;\n&lt;h2 id=\&#34;2天气和时间\&#34;&gt;2.天气和时间&lt;/h2&gt;\n&lt;p&gt;您可以自己设置天气，点击自定义按钮可以详细调整&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622387903930.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n“预设天气”处可以选择自定义、来自文件或匹配现实世界条件（说实话，自带的真实天气十分拉跨，建议后期转第三方天气插件）&lt;br&gt;\n时间更没什么说的了，按照喜好自己调，亦或是匹配现实世界的条件。&lt;/p&gt;\n&lt;p&gt;全部设置完成后点击开始飞行，然后——耐心地等待加载吧。加载时长在1分钟到5分钟乃至更长时间不等，您可以充分利用下这点时间。&lt;/p&gt;\n&lt;p&gt;加载完成之后就是这样的了（我切到了外部视角，您加载完应该是在飞机里边，先别急着点各种电门仪表，先接着看）&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622388240757.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n（左上角那个您先不用管，我们一会再说）&lt;br&gt;\n鼠标移到顶部会显示顶部菜单&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622388275096.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n顶部菜单中的内容都很好理解，而且很多也用不到（&lt;br&gt;\n最常用的两个选项卡是“飞行”和“Plugins”（插件）&lt;br&gt;\n您暂时可能还用不到插件功能。&lt;br&gt;\n右上角有一些快捷按钮，鼠标放上去就会显示他们是干什么的。&lt;br&gt;\n接下来我们退回主菜单，来看设置。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622388421544.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h2 id=\&#34;0通用\&#34;&gt;0.通用&lt;/h2&gt;\n&lt;p&gt;这里的设置大多易懂，不过这里说一下飞行模型这个设置。&lt;br&gt;\n正如我们上一章提到的，飞行模拟器非常拟真。它使用实时气动运算，所以这个选项就是调它每帧计算多少次飞行模型。&lt;br&gt;\n我个人习惯调到最大，您可以按需。由于帧率可能会偶尔跳到极低，建议最大。这个好像对性能影响……emmm不大？&lt;/p&gt;\n&lt;h2 id=\&#34;1声音\&#34;&gt;1.声音&lt;/h2&gt;\n&lt;p&gt;emmm……默认就好&lt;/p&gt;\n&lt;h2 id=\&#34;2图像\&#34;&gt;2.图像&lt;/h2&gt;\n&lt;p&gt;这里是个大头。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622388589166.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n首先说一下：在11.50版本后X-Plane可以运行在OpenGL或Vulkan/METAL引擎下。我感觉Vulkan对性能友好一点（Windows平台下是Vulkan，METAL好像是Mac OS平台）&lt;br&gt;\n该选项需要重启模拟器（其实这里大多数选项都是）。&lt;/p&gt;\n&lt;h3 id=\&#34;0视觉效果\&#34;&gt;0.视觉效果&lt;/h3&gt;\n&lt;p&gt;整体效果。建议您先调到高，看看卡不卡。&lt;br&gt;\n您可能注意到了，“高”后面跟了个“（HDR）”。X-Plane中绝大多数灯光效果在HDR一下的画质设置时是没有的，也就是说，如果您的机子开不到“高”……那么请做好准备面对真·漆黑一片的夜晚。&lt;br&gt;\n如果“高”没有压力，那么试试“极高”。“极高”画质下会开启环境光遮蔽（SSAO）。&lt;br&gt;\n同时，反射效果也会随这个设置改变。极低下无反射，低的话反射比较弱，以此类推，高和极高的反射效果是全开的。注意区分“反射细节”，它影响的是反射的细节，而不是反射的强弱。等会我们会说到这个。&lt;/p&gt;\n&lt;h3 id=\&#34;1贴图质量\&#34;&gt;1.贴图质量&lt;/h3&gt;\n&lt;p&gt;影响材质贴图“糊不糊”。您根据您的显存大小和您的实际需要调节即可。建议调完了看看卡不卡，卡的话调低一档。&lt;/p&gt;\n&lt;h3 id=\&#34;2抗锯齿\&#34;&gt;2.抗锯齿&lt;/h3&gt;\n&lt;p&gt;这个很好理解了，X-Plane共有4种不同的抗锯齿方式，分别是MSAA、FXAA、SSAA+FXAA和SSAA&lt;br&gt;\n在“极低”到“普通”画质下，只有MSAA可用；“高”和“极高”下有FXAA、SSAA+FXAA和SSAA可用&lt;br&gt;\n仍旧是根据实际情况调节即可。&lt;/p&gt;\n&lt;h3 id=\&#34;3各向异性过滤\&#34;&gt;3.各向异性过滤&lt;/h3&gt;\n&lt;p&gt;emmmmm……这个比较复杂，我也不太好解释，您可以点击&lt;a href=\&#34;https://baike.baidu.com/item/%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E8%BF%87%E6%BB%A4\&#34;&gt;这里&lt;/a&gt;（百度百科）或者&lt;a href=\&#34;http://en.wikipedia.org/wiki/Anisotropic_filtering\&#34;&gt;这里&lt;/a&gt;（维基百科）查看具体信息。总之开大了画质会好，相应的性能需求也会高。&lt;/p&gt;\n&lt;p&gt;以上4个设置主要需要GPU性能，下面几个则需要CPU性能。&lt;/p&gt;\n&lt;h3 id=\&#34;4全局建筑数量\&#34;&gt;4.全局建筑数量&lt;/h3&gt;\n&lt;p&gt;调整建筑物的多少。建议的设置方式：开到最大，然后观察帧率决定是否下调。&lt;br&gt;\n这里说到FPS了，我们来说说怎么显示。&lt;br&gt;\n先暂时离开“图像”菜单，来到“数据输出”菜单&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622468380941.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n看得头晕了是吗？没关系。这里我们只需要找到“Frame rate”一项（第一项），然后点击“显示在座舱”。这样您就可以在已经进入飞行的界面中看到帧率了，也就是之前那张图左上角显示的。&lt;br&gt;\n您可能注意到了有很多组数据，不过您只需要关注最左边那个值，它是当前帧率。&lt;/p&gt;\n&lt;h3 id=\&#34;5反射细节\&#34;&gt;5.反射细节&lt;/h3&gt;\n&lt;p&gt;字面意思。调整动态反射的细节度。&lt;/p&gt;\n&lt;h3 id=\&#34;6生成静态飞机\&#34;&gt;6.生成静态飞机&lt;/h3&gt;\n&lt;p&gt;有些人喜欢这个选项，有些人不喜欢。它会生成一些静态的地景库飞机，来为机场略微增加一点“真实感”。&lt;/p&gt;\n&lt;h3 id=\&#34;7全局阴影\&#34;&gt;7.全局阴影&lt;/h3&gt;\n&lt;p&gt;关闭时只有你自己的飞机有阴影，打开后所有建筑物、飞机等等都会有阴影。&lt;br&gt;\n增强视觉效果，但是某些情况下拖帧严重。&lt;/p&gt;\n&lt;h3 id=\&#34;8垂直同步\&#34;&gt;8.垂直同步&lt;/h3&gt;\n&lt;p&gt;打开后防止画面撕裂。个人感觉用途不大，而且由于V-Sync自身原理，开启后帧率小幅下降。&lt;/p&gt;\n&lt;h3 id=\&#34;9在3d驾驶舱启动和视角追踪\&#34;&gt;9.在3D驾驶舱启动……和……视角追踪&lt;/h3&gt;\n&lt;p&gt;如果您有头瞄并希望启用它，开启此选项。&lt;br&gt;\n它右边那个我也不清楚是什么，一般来讲没用……&lt;/p&gt;\n&lt;p&gt;此外还有一些辅助功能，按需调节即可。如果您有多屏幕，可以按需调整视角偏移使显示更符合实际情况。&lt;/p&gt;\n&lt;h2 id=\&#34;3网络\&#34;&gt;3.网络&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622468833161.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n这里调整一些基于网络的数据输出。如果您有第三方的模拟飞行EFB/地图等等应用（这样的东西很多），其中的有一些可能使用的是X-Plane通过UDP输出的数据。&lt;br&gt;\n（顺便说下这个多人游戏，我是没用过，一般都用连飞平台提供的客户端或共享驾驶舱插件smartcopilot，还没听说过有人用这个）&lt;br&gt;\n别的设置暂时我们还用不到，后续的文章我们再讲解。&lt;/p&gt;\n&lt;h2 id=\&#34;4数据输出\&#34;&gt;4.数据输出&lt;/h2&gt;\n&lt;p&gt;目前来看除了帧率一般也不需要什么特别的数据，除非是一些第三方地图应用，需要您打开通过UDP网络输出经纬度和地速、航向等等数据。这个视具体情况而定，在此暂不赘述，放到后续章节再展开讲。&lt;/p&gt;\n&lt;h2 id=\&#34;5摇杆\&#34;&gt;5.摇杆&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622469072679.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622469065214.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n如果您有摇杆，您可能需要这个页面。&lt;br&gt;\n首先X-Plane在首次连接摇杆时会要求您做一个校准，按照说明来就行。&lt;br&gt;\n之后的调节其实很方便，按下对应按钮/操作对应轴的时候，X-Plane会自动滚动菜单并高亮被激活项&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622469165723.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n根据需要更改对应功能。保存功能可能有点让人头晕，其实您只需要对应飞机保存就行。X-Plane中您创建的摇杆配置可以绑定到一个或多个机模上。&lt;/p&gt;\n&lt;h2 id=\&#34;6键盘\&#34;&gt;6.键盘&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622469242496.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n这里设置键位，当然您也可以把这里当键位表来用。&lt;/p&gt;\n&lt;h2 id=\&#34;7gps设备\&#34;&gt;7.GPS设备&lt;/h2&gt;\n&lt;p&gt;相信我，您大概率用不着。&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622469286466.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;h2 id=\&#34;8虚拟现实硬件\&#34;&gt;8.虚拟现实硬件&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622469330670.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\nX-Plane对VR有一些基础支持。不过这个我们暂时不需要用到。&lt;/p&gt;\n&lt;p&gt;以上就是关于设置界面的介绍。&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;好了，目前您已经学会了如何开始一个新飞行以及如何配置您的X-Plane飞行模拟器。您也注意到了，本文标题是“模拟器的基础配置”。除此之外还有其它需要配置的内容，比如第三方地景、导航数据等等。这些内容我们会在以后讲解。下一篇文章，您将会真正地开始飞行——从一架Cessna172开始您在这个模拟世界的第一次翱翔。&lt;br&gt;\n我是FinalAPPR，感谢您的阅读。如果您觉得本文对您有帮助，欢迎&lt;a href=\&#34;https://slimemark.github.io/post/supportauthor/\&#34;&gt;赞赏&lt;/a&gt;。&lt;/p&gt;\n&lt;h1 id=\&#34;备注\&#34;&gt;备注&lt;/h1&gt;\n&lt;p&gt;本文中涉及到一些画质设置，对于一些专业词汇等我的介绍可能不到位或有错误，还请谅解。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;siminit-cfgsim&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;模拟飞行入坑不完全指南-Pt.01-2 模拟器的基础配置&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模飞不完全指南&#34;,&#34;slug&#34;:&#34;Rae5uyoLA&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/Rae5uyoLA/&#34;}],&#34;date&#34;:&#34;2021-05-30 22:55:43&#34;,&#34;dateFormat&#34;:&#34;2021-05-30&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/siminit-cfgsim.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/siminit-cfgsim/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;10 min read&#34;,&#34;time&#34;:556000,&#34;words&#34;:2684,&#34;minutes&#34;:10},&#34;description&#34;:&#34;由于我只用过X-Plane 11，所以就先只讲一下X-Plane 11的使用吧。\n0.开始前\n首先，请不要在您的模拟器进行任何加载或卡住时狂点鼠标/键盘/等等，可能本来它不想崩溃，你这么一点它还来劲了，直接未响应，轻则重开，重则重飞乃至十几...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E5%BC%80%E5%A7%8B%E5%89%8D\&#34;&gt;0.开始前&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E4%B8%BB%E7%95%8C%E9%9D%A2\&#34;&gt;1.主界面&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E6%81%A2%E5%A4%8D%E4%B8%8A%E4%B8%80%E6%AC%A1%E7%9A%84%E9%A3%9E%E8%A1%8C\&#34;&gt;0.恢复上一次的飞行&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E6%96%B0%E9%A3%9E%E8%A1%8C\&#34;&gt;1.新飞行&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%8A%A0%E8%BD%BD%E5%B7%B2%E4%BF%9D%E5%AD%98%E7%9A%84%E9%A3%9E%E8%A1%8C\&#34;&gt;2.加载已保存的飞行&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E9%A3%9E%E8%A1%8C%E5%AD%A6%E9%99%A2\&#34;&gt;3.飞行学院&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E8%AE%BE%E7%BD%AE\&#34;&gt;4.设置&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#5%E9%80%80%E5%87%BAx-plane\&#34;&gt;5.退出X-Plane&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E6%96%B0%E9%A3%9E%E8%A1%8C\&#34;&gt;2.开始一个新飞行&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E9%A3%9E%E6%9C%BA\&#34;&gt;0.飞机&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E9%87%8D%E9%87%8F-%E5%B9%B3%E8%A1%A1%E4%B8%8E%E7%87%83%E6%B2%B9\&#34;&gt;0.重量、平衡与燃油&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E6%95%85%E9%9A%9C\&#34;&gt;1.故障&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%9C%A8%E5%BC%95%E6%93%8E%E8%BF%90%E8%BD%AC%E7%9A%84%E7%8A%B6%E6%80%81%E4%B8%8B%E5%BC%80%E5%A7%8B\&#34;&gt;2.在引擎运转的状态下开始&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E4%BD%8D%E7%BD%AE\&#34;&gt;1.位置&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%A4%A9%E6%B0%94%E5%92%8C%E6%97%B6%E9%97%B4\&#34;&gt;2.天气和时间&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E9%80%9A%E7%94%A8\&#34;&gt;0.通用&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%A3%B0%E9%9F%B3\&#34;&gt;1.声音&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%9B%BE%E5%83%8F\&#34;&gt;2.图像&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E8%A7%86%E8%A7%89%E6%95%88%E6%9E%9C\&#34;&gt;0.视觉效果&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E8%B4%B4%E5%9B%BE%E8%B4%A8%E9%87%8F\&#34;&gt;1.贴图质量&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E6%8A%97%E9%94%AF%E9%BD%BF\&#34;&gt;2.抗锯齿&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E8%BF%87%E6%BB%A4\&#34;&gt;3.各向异性过滤&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E5%85%A8%E5%B1%80%E5%BB%BA%E7%AD%91%E6%95%B0%E9%87%8F\&#34;&gt;4.全局建筑数量&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#5%E5%8F%8D%E5%B0%84%E7%BB%86%E8%8A%82\&#34;&gt;5.反射细节&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#6%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E9%A3%9E%E6%9C%BA\&#34;&gt;6.生成静态飞机&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#7%E5%85%A8%E5%B1%80%E9%98%B4%E5%BD%B1\&#34;&gt;7.全局阴影&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#8%E5%9E%82%E7%9B%B4%E5%90%8C%E6%AD%A5\&#34;&gt;8.垂直同步&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#9%E5%9C%A83d%E9%A9%BE%E9%A9%B6%E8%88%B1%E5%90%AF%E5%8A%A8%E5%92%8C%E8%A7%86%E8%A7%92%E8%BF%BD%E8%B8%AA\&#34;&gt;9.在3D驾驶舱启动……和……视角追踪&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E7%BD%91%E7%BB%9C\&#34;&gt;3.网络&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E6%95%B0%E6%8D%AE%E8%BE%93%E5%87%BA\&#34;&gt;4.数据输出&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#5%E6%91%87%E6%9D%86\&#34;&gt;5.摇杆&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#6%E9%94%AE%E7%9B%98\&#34;&gt;6.键盘&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#7gps%E8%AE%BE%E5%A4%87\&#34;&gt;7.GPS设备&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#8%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E%E7%A1%AC%E4%BB%B6\&#34;&gt;8.虚拟现实硬件&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%A4%87%E6%B3%A8\&#34;&gt;备注&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;如果您觉得文章内容很好且对您有帮助，欢迎赞赏作者&lt;br&gt;\n&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1622219158175.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;supportauthor&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;赞赏&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2021-05-29 00:19:20&#34;,&#34;dateFormat&#34;:&#34;2021-05-29&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/supportauthor/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:4000,&#34;words&#34;:23,&#34;minutes&#34;:1},&#34;description&#34;:&#34;如果您觉得文章内容很好且对您有帮助，欢迎赞赏作者\n\n...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;首先，我想明确一点，我们在此讨论的，是&lt;strong&gt;模拟飞行软件&lt;/strong&gt;，而不是&lt;strong&gt;飞行游戏&lt;/strong&gt;。这两者主要的区别，在于飞行游戏相较于模拟飞行软件，其严谨程度有着明显差别。但是，如果您从未接触过飞行相关知识，那么一款不错的飞行游戏有助于您尽快了解飞行的一些基础要素。这里推荐我最早接触的《极限着陆》。它可以让您迅速熟悉一些以后在更加专业的模拟飞行软件中会接触到的内容——当然，您之后也会发现它是多么的不严谨。因此，&lt;strong&gt;绝对不要将您在飞行游戏中的操纵习惯和飞行习惯带入到模拟飞行中。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;好的，现在我们就开始仅针对模拟飞行软件进行讨论。对于上述内容中完全不了解飞行的情况，您可以先从手机端模拟飞行软件开始入手。这样一来您确实接触到了较为严谨的（相较于PC上运行的模拟飞行软件来讲，手机端的还是略逊一些）模拟飞行，又不会有太多的资金投入，可以随时退坑。当然，我这里并不建议您一遇到困难就想着退坑，困难总会有的，我也是一步步过来的，遇到一些困难就轻易退坑，那么您可能也就无从接触到模拟飞行中更加深入的内容了。&lt;/p&gt;\n&lt;p&gt;对于手机端飞行模拟软件，《AeroFly》的评价不错；另外您也可以选择《X-Plane Mobile》，只是可能需要一些&lt;em&gt;工具&lt;/em&gt;来访问其地景服务器（早前的版本还能离线玩，自从加入了付费式全球地景不连线根本无从freeflight，而且其服务器国内也无法正常访问）&lt;/p&gt;\n&lt;p&gt;这里希望您记住：不要总想着开大飞机。我明白，所有人都喜欢玩大型客机，但是一知半解地从客机开始学习，很容易走许多弯路，到头来发现一堆问题（降落砸地等等）都是基础不牢导致，还是得从小飞机开始练习（我的真实经历，不信的话您可以看看我在B站上的视频，哪个降落不砸，现在还是回到原点练习降落技巧）。&lt;/p&gt;\n&lt;p&gt;好的，说完了一些基本的准备内容，这里假设您已经通过上述方式对飞行有了些基本了解。那么，欢迎来到PC端飞行模拟器。接下来的内容很多，您可以酌情记录下来。&lt;/p&gt;\n&lt;p&gt;很多问题可以在模拟飞行论坛上发帖询问，推荐两个：&lt;br&gt;\nChinaFlier中国飞行者联盟&lt;br&gt;\nSinofsx&lt;/p&gt;\n&lt;hr&gt;\n&lt;h2 id=\&#34;0自身准备\&#34;&gt;0.自身准备&lt;/h2&gt;\n&lt;p&gt;由于模拟飞行本身与游戏还是有一定区别的，所以您自身至少需要有这些准备：&lt;/p&gt;\n&lt;h4 id=\&#34;1一定的飞行相关知识\&#34;&gt;①一定的飞行相关知识。&lt;/h4&gt;\n&lt;p&gt;您如果对飞行完全不了解，就需要先通过一些方式了解诸如基本术语之类的内容。推荐通过上面段落中的方法，另外推荐《空中浩劫》和《飞行员之眼》这两部纪录片来了解。&lt;/p&gt;\n&lt;h4 id=\&#34;2一定的英语水平\&#34;&gt;②一定的英语水平。&lt;/h4&gt;\n&lt;p&gt;很多航空相关的资料、网页等等一般都是英文的，像FCOM、FCTM这种文档虽然有中文版，而且也不少，但是相对来讲原版更容易找一点。此外，较大的第三方插件平台除Simmarket外目前都还没有中文支持。虽然可以用机翻，但能看懂一点毕竟方便些。此外，购买的插件遇到问题需要找客服，用英文写邮件的能力还是得有的（PS：一般客服邮件回复很慢，最长可达72小时以上，如果您的问题比较棘手请做好拉锯战的准备……）&lt;/p&gt;\n&lt;h4 id=\&#34;3资金\&#34;&gt;③资金。&lt;/h4&gt;\n&lt;p&gt;无论是模拟器软件本身还是第三方插件，乃至外设，都需要您投入一定资金。虽然说您确实可以获取到*解版，但是总归还是没有正版用着稳定且方便。至于外设，这个看个人喜好，投入不等。从500元左右的摇杆到高达几十万的模拟舱（一般人也不会去买，大概……），都有可能。&lt;/p&gt;\n&lt;h4 id=\&#34;4坚持\&#34;&gt;④坚持。&lt;/h4&gt;\n&lt;p&gt;模拟飞行是一个需要长期学习的过程，困难是无法避免的。如果您打算长期在模拟飞行这条路上走，那么坚持必不可少。千万不要绕过您遇到的每一个问题，也不要轻易放弃。这里引用一下Youtube上MzeroA频道的一句话：&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;A Good Pilot is Always Leaning.&lt;br&gt;\n一个优秀的飞行员永远在学习。&lt;br&gt;\n这句话同样适用于模拟飞行“飞行员”，乃至应用到您的生活中。&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;1pc端主流模飞软件\&#34;&gt;1.PC端主流模飞软件&lt;/h2&gt;\n&lt;p&gt;在PC端，模飞软件主要有历史悠久的Microsoft Flight Simulator，由洛克希德·马丁公司开发的Prepare 3D（简称P3D），综合来看不错的X-Plane和您可能听说过的次世代飞行模拟器Microsoft Flight Simulator 2020。由于我个人只用过X-Plane，别的模拟器不敢瞎评论，建议您可以去各种模飞论坛上问问，我在这里就只说一下X-Plane。&lt;/p&gt;\n&lt;p&gt;X-Plane目前最新大版本是X-Plane 11，我个人觉得它的好处在于界面比P3D容易理解一点，而且自带中文，图形设置也好调，鼠标放到滑条上看着说明调基本都能调到不错的配置。摇杆设置界面对于常见的摇杆都有图片对照，设置起来容易一些。除此之外还有很多特点，在这里不再一一赘述。&lt;/p&gt;\n&lt;h2 id=\&#34;2硬件准备\&#34;&gt;2.硬件准备&lt;/h2&gt;\n&lt;p&gt;模拟飞行软件为了追求极高的模拟精度，对性能需求很高。所以，高性能的硬件必不可少。因此，请一定想好您是否真的要继续在这条路上走下去，因为如果您的电脑性能不强，硬件上可能会花掉您不少的资金。&lt;/p&gt;\n&lt;p&gt;关于各种不同的飞行模拟器，您可以在各种论坛上询问最佳性价比的配置，在这里不再赘述，因为我也说不清楚什么是最好的，因人而异吧。&lt;/p&gt;\n&lt;p&gt;除此之外，您需要一块足够大的硬盘——越大越好。这是因为模拟飞行中的高精度（也许吧）全球地景（默认地景）会占去超大的空间（对于X-Plane，最终安装大小在60GB上下），而且您后期安装的第三方增强地景（有些能达到1TB）、机模插件等等都会占去极大的空间。所以，哪怕是为模拟飞行专门准备一个盘也不夸张。当然，7200RPM的机械硬盘足够使用了，您要是财大气粗也可以上SSD，缩短点读取时间。&lt;/p&gt;\n&lt;p&gt;对于RAM，也是大一点好。模拟飞行软件占用的VRAM和RAM都不小。就我个人的画质设置和使用的软件，16GB RAM也许是一个比较合适的大小。&lt;/p&gt;\n&lt;h2 id=\&#34;3软件准备\&#34;&gt;3.软件准备&lt;/h2&gt;\n&lt;p&gt;您需要至少一个上文中提到的模拟飞行软件。（这不是废话吗）&lt;br&gt;\n（软件方面好像没什么特别的，这里&lt;strong&gt;建议使用Windows 10系统&lt;/strong&gt;）&lt;/p&gt;\n&lt;h2 id=\&#34;4外设\&#34;&gt;4.外设&lt;/h2&gt;\n&lt;p&gt;之所以将外设单独列出来，是因为我认为它对于初次接触模拟飞行的人来说，并不是一定要有的。当然，如果您确定您将长期在模飞这条路上走，那么摇杆是迟早要有的。&lt;br&gt;\n市面上摇杆选择很多，这里我个人感觉性价比不错的是图马斯特的T16000M（不是广告，我确实觉得这个好）。当然您如果对外观有要求，您还可以选他们的TCA摇杆，空客风。&lt;br&gt;\n对于波音上的那种Yoke，我没有用过，不过评价较好的好像是Honeycomb的，您可以在&lt;a href=\&#34;https://flyhoneycomb.com/products/alpha-flight-controls\&#34;&gt;这里&lt;/a&gt;了解更多。&lt;/p&gt;\n&lt;h2 id=\&#34;写在最后\&#34;&gt;写在最后&lt;/h2&gt;\n&lt;p&gt;好了，您的第一步准备在这里就已经完成了。下一篇文章，我将以X-Plane为例，带您学会如何较好地配置和使用您的模拟飞行软件。&lt;br&gt;\n希望您能记住那句话：&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;A Good Pilot is Always Leaning.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;这里是FinalAPPR五边，感谢阅读。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;flightsiminit-pt01-1&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;模拟飞行入坑不完全指南-Pt.01-1 前期准备&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模飞不完全指南&#34;,&#34;slug&#34;:&#34;Rae5uyoLA&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/Rae5uyoLA/&#34;}],&#34;date&#34;:&#34;2021-05-21 22:51:15&#34;,&#34;dateFormat&#34;:&#34;2021-05-21&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/flightsiminit-pt01-1.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/flightsiminit-pt01-1/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;8 min read&#34;,&#34;time&#34;:439000,&#34;words&#34;:2134,&#34;minutes&#34;:8},&#34;description&#34;:&#34;首先，我想明确一点，我们在此讨论的，是模拟飞行软件，而不是飞行游戏。这两者主要的区别，在于飞行游戏相较于模拟飞行软件，其严谨程度有着明显差别。但是，如果您从未接触过飞行相关知识，那么一款不错的飞行游戏有助于您尽快了解飞行的一些基础要素。这里...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#0%E8%87%AA%E8%BA%AB%E5%87%86%E5%A4%87\&#34;&gt;0.自身准备&lt;/a&gt;&lt;br&gt;\n*\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E4%B8%80%E5%AE%9A%E7%9A%84%E9%A3%9E%E8%A1%8C%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86\&#34;&gt;①一定的飞行相关知识。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E4%B8%80%E5%AE%9A%E7%9A%84%E8%8B%B1%E8%AF%AD%E6%B0%B4%E5%B9%B3\&#34;&gt;②一定的英语水平。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E8%B5%84%E9%87%91\&#34;&gt;③资金。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E5%9D%9A%E6%8C%81\&#34;&gt;④坚持。&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#1pc%E7%AB%AF%E4%B8%BB%E6%B5%81%E6%A8%A1%E9%A3%9E%E8%BD%AF%E4%BB%B6\&#34;&gt;1.PC端主流模飞软件&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E7%A1%AC%E4%BB%B6%E5%87%86%E5%A4%87\&#34;&gt;2.硬件准备&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E8%BD%AF%E4%BB%B6%E5%87%86%E5%A4%87\&#34;&gt;3.软件准备&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E5%A4%96%E8%AE%BE\&#34;&gt;4.外设&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E\&#34;&gt;写在最后&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;一直想写一点模拟飞行相关的东西，但是因为自己能力有限整不了什么太专业的活，于是就想到做一个尽可能详尽的模拟飞行入坑指南，以我自己的经验为主，结合各种能找到的资料，为想入坑模拟飞行的新人尽可能减少障碍和各种弯路。&lt;/p&gt;\n&lt;p&gt;即使您只是对模拟飞行有一丁点兴趣，甚至只是想随便玩玩，您都可以在这个系列指南中找到适合您的路线。当然，正如其标题“不完全指南”，我可能无法保证您一定能避开所有坑，具体路线细节，还待您自行摸索。&lt;/p&gt;\n&lt;p&gt;本系列文章将长期更新。&lt;img src=\&#34;https://finalappr.netlify.app/post-images/1621438956123.png\&#34; alt=\&#34;截图自X-Plane飞行模拟器\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;siminitguide-pt00&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;模拟飞行入坑不完全指南-Pt.00 序言&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;模飞不完全指南&#34;,&#34;slug&#34;:&#34;Rae5uyoLA&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/Rae5uyoLA/&#34;}],&#34;date&#34;:&#34;2021-05-19 23:32:25&#34;,&#34;dateFormat&#34;:&#34;2021-05-19&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/siminitguide-pt00.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/siminitguide-pt00/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:39000,&#34;words&#34;:195,&#34;minutes&#34;:1},&#34;description&#34;:&#34;一直想写一点模拟飞行相关的东西，但是因为自己能力有限整不了什么太专业的活，于是就想到做一个尽可能详尽的模拟飞行入坑指南，以我自己的经验为主，结合各种能找到的资料，为想入坑模拟飞行的新人尽可能减少障碍和各种弯路。\n即使您只是对模拟飞行有一丁点...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;hr&gt;\n&lt;h2 id=\&#34;该文章供测试使用\&#34;&gt;（该文章供测试使用）&lt;/h2&gt;\n&#34;,&#34;fileName&#34;:&#34;hello-world&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;Hello World！&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2021-05-19 23:00:07&#34;,&#34;dateFormat&#34;:&#34;2021-05-19&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/hello-world/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:1000,&#34;words&#34;:8,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\n（该文章供测试使用）\n&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%AF%A5%E6%96%87%E7%AB%A0%E4%BE%9B%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8\&#34;&gt;（该文章供测试使用）&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;别看了，这里真的什么也没有&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;about&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2019-01-25 19:09:48&#34;,&#34;dateFormat&#34;:&#34;2019-01-25&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/about/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:2000,&#34;words&#34;:12,&#34;minutes&#34;:1},&#34;description&#34;:&#34;别看了，这里真的什么也没有\n&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;\n✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;p&gt;&lt;a href=\&#34;https://github.com/getgridea/gridea\&#34;&gt;Github&lt;/a&gt;&lt;br&gt;\n&lt;a href=\&#34;https://gridea.dev/\&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;\n&lt;a href=\&#34;http://fehey.com/\&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;\n&lt;h2 id=\&#34;特性\&#34;&gt;特性👇&lt;/h2&gt;\n&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;\n&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;\n&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;\n&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;\n&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;\n&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;\n&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=\&#34;https://github.com/gitalk/gitalk\&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=\&#34;https://github.com/SukkaW/DisqusJS\&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;\n&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;\n&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;\n&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;\n&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;\n&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;\n&lt;p&gt;😘 Enjoy~&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;hello-gridea&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;\n✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;Hello Gridea&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;Gridea&#34;,&#34;slug&#34;:&#34;luAMjDykb&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://finalappr.netlify.app/tag/luAMjDykb/&#34;}],&#34;date&#34;:&#34;2018-12-12 00:00:00&#34;,&#34;dateFormat&#34;:&#34;2018-12-12&#34;,&#34;feature&#34;:&#34;https://finalappr.netlify.app/post-images/hello-gridea.png&#34;,&#34;link&#34;:&#34;https://finalappr.netlify.app/post/hello-gridea/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:62000,&#34;words&#34;:298,&#34;minutes&#34;:2},&#34;description&#34;:&#34;👏  欢迎使用 Gridea ！\n✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...\n\nGithub\nGridea 主页\n示例网站\n特性👇\n📝  你可以使用最酷的 Markdo...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%89%B9%E6%80%A7\&#34;&gt;特性👇&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/media/js/mouse/fireworks.js"></script>
+
+
+
+</html>
